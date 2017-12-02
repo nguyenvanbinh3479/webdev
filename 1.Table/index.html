@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="images/admin.png">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/index.js"></script>
+		<!-- dataTable -->
+		<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css"/>
+		<script src="js/jquery.dataTables.min.js"></script>
+		<script src="js/dataTables.bootstrap4.min.js"></script>
+		<!-- dataTable -->
+		<title>Table - WebDev</title>
+	</head>
+	<body>
+		<header>
+			<div class="row">
+				<div class="admin col-md-6 col-md-offset-3">
+					<h1>
+						<a href="https://www.facebook.com/profile.php?id=100004294174844">
+							<img src="images/admin.png" alt="">
+						</a>
+					</h1>
+					<h2>Welcome To My Website</h2>
+				</div>
+			</div>
+		</header>	
+		<section>
+			<div class="row">
+				<div class="table-wrapper-2">
+					<div class="table-responsive"> 
+						<table id="example" class="table table-bordered table-hover" cellspacing="0" width="100%">
+							<caption>My Friend</caption>
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Firstname</th>
+									<th scope="col">Lastname</th>
+									<th scope="col" colspan="2">Contact: contact by email or phone number</th>
+									<th scope="col">age</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<!-- <tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">1</th>
+									<td>Hoàng</td>
+									<td>Dương</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>15</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">2</th>
+									<td>Tuấn</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>16</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">3</th>
+									<td>Tùng</td>
+									<td>Nguyễn</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>17</td>
+								</tr>
+								<tr class="info">
+									<th scope="row">4</th>
+									<td>Thảo</td>
+									<td>Huỳnh</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>18</td>
+								</tr>
+								<tr class="active">
+									<th scope="row">5</th>
+									<td>Vũ</td>
+									<td>Hoàng</td>
+									<td>john@example.com</td>
+									<td>69465468413186684</td>
+									<td>19</td>
+								</tr> -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer></footer>
+	</body>
+</html>
