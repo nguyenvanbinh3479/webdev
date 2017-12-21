@@ -28,6 +28,9 @@ body {
   body section {
     overflow: hidden; }
 
+.row {
+  margin: 0; }
+
 .header-top {
   background: #d2fdd2; }
 
@@ -44,5 +47,39 @@ body {
   .nav h2 {
     font-size: 50px;
     text-align: center; }
+
+.content {
+  width: 70%;
+  background: #a5ffcb;
+  float: left;
+  height: 1100px; }
+  .content .one {
+    height: 150px;
+    background: #faff98; }
+  .content .two {
+    height: 300px;
+    background: #ab98ff; }
+  .content .three {
+    height: 300px;
+    background: #ff98c8; }
+
+.sidebar {
+  width: 30%;
+  background: #fff788;
+  float: left;
+  height: 1100px; }
+  .sidebar .one {
+    height: 290px;
+    background: #98d6ff; }
+  .sidebar .two {
+    height: 330px;
+    background: #fa9bff; }
+  .sidebar .three {
+    height: 330px;
+    background: #ffbc98; }
+
+.footer-bottom {
+  background: #dddddd;
+  height: 200px; }
 
 /*# sourceMappingURL=styles.css.map */

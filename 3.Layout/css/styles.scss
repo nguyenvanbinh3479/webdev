@@ -37,6 +37,10 @@ body{
     }
 }
 
+.row{
+    margin: 0;
+}
+
 .header-top{
     background: rgb(210, 253, 210);
 }
@@ -60,4 +64,47 @@ body{
         font-size: 50px;
         text-align: center;
     }
+}
+
+.content{
+    width: 70%;
+    background: rgb(165, 255, 203);
+    float: left;
+    height: 1100px;
+    .one{
+        height: 150px;
+        background: rgb(250, 255, 152);
+    }
+    .two{
+        height: 300px;
+        background: rgb(171, 152, 255);
+    }
+    .three{
+        height: 300px;
+        background: rgb(255, 152, 200);
+    }
+}
+
+.sidebar{
+    width: 30%;
+    background: rgb(255, 247, 136);
+    float: left;
+    height: 1100px;
+    .one{
+        height: 290px;
+        background: rgb(152, 214, 255);
+    }
+    .two{
+        height: 330px;
+        background: rgb(250, 155, 255);
+    }
+    .three{
+        height: 330px;
+        background: rgb(255, 188, 152);
+    }
+}
+
+.footer-bottom{
+    background: rgb(221, 221, 221);
+    height: 200px;
 }
