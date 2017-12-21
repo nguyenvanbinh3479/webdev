@@ -25,29 +25,39 @@
 
 body{
     font-family: 'Dancing Script', cursive;
+    width: 70%;
+    margin: 0 auto;
     header{
+        overflow: hidden;
     }
     section{
+        overflow: hidden;
     }
     footer{
     }
 }
 
-.row{
-    margin: 15px;
+.header-top{
+    background: rgb(210, 253, 210);
 }
 
 .admin{
     text-align: center;
     h1{
-        margin: 0;
+        margin: 15px 0;
         a{
             img{
                 width: 100px;
             }
         }
     }
+}
+
+.nav{
+    background: rgb(255, 179, 179);
+    height: 200px;
     h2{
         font-size: 50px;
+        text-align: center;
     }
 }

@@ -20,18 +20,29 @@
   src: local("Dancing Script Regular"), local("DancingScript-Regular"), url(../fonts/DK0eTGXiZjN6yA8zAEyM2Ud0sm1ffa_JvZxsF_BEwQk.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
 body {
-  font-family: 'Dancing Script', cursive; }
+  font-family: 'Dancing Script', cursive;
+  width: 70%;
+  margin: 0 auto; }
+  body header {
+    overflow: hidden; }
+  body section {
+    overflow: hidden; }
 
-.row {
-  margin: 15px; }
+.header-top {
+  background: #d2fdd2; }
 
 .admin {
   text-align: center; }
   .admin h1 {
-    margin: 0; }
+    margin: 15px 0; }
     .admin h1 a img {
       width: 100px; }
-  .admin h2 {
-    font-size: 50px; }
+
+.nav {
+  background: #ffb3b3;
+  height: 200px; }
+  .nav h2 {
+    font-size: 50px;
+    text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
