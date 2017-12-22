@@ -25,15 +25,6 @@ body {
     overflow: hidden; }
 
 .row {
-  margin: 15px; }
-
-.admin {
-  text-align: center; }
-  .admin h1 {
-    margin: 0; }
-    .admin h1 a img {
-      width: 100px; }
-  .admin h2 {
-    font-size: 50px; }
+  margin: 0; }
 
 /*# sourceMappingURL=styles.css.map */
