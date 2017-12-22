@@ -81,7 +81,10 @@ body{
     }
     .contact{
         float: right;   
+        overflow: hidden;
         form{
+            float: left;
+            width: 206px;
             input{
                 border: none;
                 border-radius: 10px;
@@ -95,6 +98,24 @@ body{
                     left: 182px;
                     top: 13px;
                 }
+            }
+        }
+        .social{
+            float: left;
+            border: 1px solid white;
+            border-top: none;
+            border-bottom: none;
+            overflow: hidden;
+            a{
+                padding: 13px 9px 15px;
+                border-right: 1px solid white;
+                img{
+                    width: 25px; 
+                    padding: 13px 0 9px;
+                }
+            }
+            .last{
+                border: none;
             }
         }
     }

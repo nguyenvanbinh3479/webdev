@@ -36,16 +36,34 @@ body header {
         .nav-top .menu ul li .last {
           border: none; }
   .nav-top .contact {
-    float: right; }
-    .nav-top .contact form input {
-      border: none;
-      border-radius: 10px;
-      margin: 12px 31px 0px;
-      width: 162px; }
-    .nav-top .contact form a img {
-      width: 18px;
-      position: absolute;
-      left: 182px;
-      top: 13px; }
+    float: right;
+    overflow: hidden; }
+    .nav-top .contact form {
+      float: left;
+      width: 206px; }
+      .nav-top .contact form input {
+        border: none;
+        border-radius: 10px;
+        margin: 12px 31px 0px;
+        width: 162px; }
+      .nav-top .contact form a img {
+        width: 18px;
+        position: absolute;
+        left: 182px;
+        top: 13px; }
+    .nav-top .contact .social {
+      float: left;
+      border: 1px solid white;
+      border-top: none;
+      border-bottom: none;
+      overflow: hidden; }
+      .nav-top .contact .social a {
+        padding: 13px 9px 15px;
+        border-right: 1px solid white; }
+        .nav-top .contact .social a img {
+          width: 25px;
+          padding: 13px 0 9px; }
+      .nav-top .contact .social .last {
+        border: none; }
 
 /*# sourceMappingURL=styles.css.map */
