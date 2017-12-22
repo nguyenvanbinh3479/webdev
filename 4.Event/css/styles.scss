@@ -26,7 +26,8 @@
 body{
     // font-family: 'Dancing Script', cursive;
     header{
-        background: #27a3dc;           
+        background: #27a3dc;       
+        overflow: hidden;    
     }
     section{
 
@@ -52,8 +53,6 @@ body{
 }
 
 .nav-top{
-    width: 997px;
-    margin: 0 auto;
     overflow: hidden;
     .menu{
         padding: 0;
@@ -79,8 +78,7 @@ body{
             }
         }
     }
-    .contact{
-        float: right;   
+    .contact{  
         overflow: hidden;
         form{
             float: left;

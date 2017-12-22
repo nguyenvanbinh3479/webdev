@@ -1,5 +1,6 @@
 body header {
-  background: #27a3dc; }
+  background: #27a3dc;
+  overflow: hidden; }
 
 .row {
   margin: 0; }
@@ -14,8 +15,6 @@ body header {
     font-size: 45px; }
 
 .nav-top {
-  width: 997px;
-  margin: 0 auto;
   overflow: hidden; }
   .nav-top .menu {
     padding: 0; }
@@ -36,7 +35,6 @@ body header {
         .nav-top .menu ul li .last {
           border: none; }
   .nav-top .contact {
-    float: right;
     overflow: hidden; }
     .nav-top .contact form {
       float: left;
