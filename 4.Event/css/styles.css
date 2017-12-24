@@ -15,7 +15,9 @@ body header {
     font-size: 45px; }
 
 .nav-top {
-  overflow: hidden; }
+  overflow: hidden;
+  width: 998px;
+  margin: 0 auto; }
   .nav-top .menu {
     padding: 0; }
     .nav-top .menu ul {
