@@ -1,0 +1,41 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width:100%;
+}
+#left{
+    width:20%;
+	float:left;
+	background-color: #454444;
+}
+#left .header{
+	font-family:'MV Boli';
+	color:#fff;
+	font-size: 30px;
+	margin:70px 90px;
+	border-bottom: 1px solid #383838;
+	padding-bottom: 10px;
+
+}
+#left .content{
+	font-family:'Myriad Pro';
+	font-size: 10px;
+	color:#fff;
+}
+ul{
+	padding: 10px;
+	list-style-type: none;
+	border-bottom: 1px solid #fff;
+	margin: auto 90px;
+}
+#left .footer img{
+	width:100%;
+	margin-top:319px;
+}
+#right img{
+	float:right;
+	width:80%;
+}

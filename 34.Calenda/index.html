@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="img/admin.png">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="bxslider/dist/jquery.bxslider.css" rel="stylesheet"/>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/index.js"></script>
+		<title>WebDev</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="nav">
+				<div class="menu">
+					<h1>
+						<a href="index.html">
+							<img src="img/logo.png" alt="">
+						</a>
+					</h1>
+					<div class="one">
+						<a href="">
+							<img src="img/home.png" alt="">
+							<p>HOME</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/comment.png" alt="">
+							<p>お知らせ</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/house.png" alt="">
+							<p>学校案内</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/car.png" alt="">
+							<p>教習プラン</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/pen.png" alt="">
+							<p>入校手続</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/key.png" alt="">
+							<p>8つのメリット</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/bus.png" alt="">
+							<p>スクールバス</p>
+						</a>
+					</div>
+					<div class="one">
+						<a href="">
+							<img src="img/men.png" alt="">
+							<p>スタッフ紹介</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="right">
+				<div id="header">
+					<div class="header-top">
+						<div class="slogan">
+							<img src="img/slogan.png" alt="">
+						</div>
+						<div class="loa">
+							<p>お問合せはお気軽に</p>
+							<img src="img/loa.png" alt="">
+						</div>
+						<div class="number">
+							<p>佐賀県伊万里市立花町939-2 &nbsp; &nbsp; 地図</p>
+							<div class="pink">
+								<p>お客様センター</p>
+							</div>
+							<h6>0120-23-5289</h6>
+						</div>
+					</div>
+					<div class="banner">
+						<img src="img/banner.png" alt="">
+					</div>
+				</div>
+				<div id="wrapper">
+					<div class="content">
+						<div class="first">
+							<img src="img/calenda.png" alt="">
+							<p>教習プラン</p>
+							<h2>合宿カレンダー</h2>
+							<span>取得したい免許の日程を確認できます。</span>
+						</div>
+						<div class="second">
+							<img src="img/pic1.png" alt="">
+							<img class="sps" src="img/pic2.png" alt="">
+							<img src="img/pic3.png" alt="">
+							<p>普通自動車（MT車・AT車）
+								<br>合宿日程表</p>
+						</div>
+						<div class="third">
+							<div class="tab">
+								<button id="act" class="tablinks" onclick="opencalenda(event, 'one')">2017年10月</button>
+								<button class="tablinks" onclick="opencalenda(event, 'two')">2017年11月</button>
+								<button class="tablinks" onclick="opencalenda(event, 'three')">2017年12月</button>
+								<button class="tablinks" onclick="opencalenda(event, 'four')">2018年1月</button>
+								<button class="tablinks" onclick="opencalenda(event, 'five')">2018年2月</button>
+								<button class="tablinks" onclick="opencalenda(event, 'six')">2018年3月</button>
+							</div>
+							<div id="one" class="tabcontent">
+								<div class="sun">
+									<h6>Sun</h6>
+									<div class="box">
+										<p>1</p>
+									</div>
+									<div class="box">
+										<p>8</p>
+									</div>
+									<div class="box">
+										<p>15</p>
+									</div>
+									<div class="box">
+										<p>22</p>
+									</div>
+									<div class="box">
+										<p>29</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Mon</h6>
+									<div class="box1">
+										<p>2</p>
+									</div>
+									<div class="box1">
+										<p>9</p>
+									</div>
+									<div class="box1">
+										<p>16</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>23</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>30</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Tue</h6>
+									<div class="box1">
+										<p>3</p>
+									</div>
+									<div class="box1">
+										<p>10</p>
+									</div>
+									<div class="box1">
+										<p>17</p>
+									</div>
+									<div class="box1">
+										<p>24</p>
+									</div>
+									<div class="box1">
+										<p>31</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Wed</h6>
+									<div class="box1">
+										<p>4</p>
+									</div>
+									<div class="box1">
+										<p>11</p>
+										<div class="click1">
+											<a href="javascript:void(0);">AT</a>
+										</div>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>18</p>
+										<div class="click1">
+											<a href="javascript:void(0);">AT</a>
+										</div>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>25</p>
+										<div class="click1">
+											<a href="javascript:void(0);">AT</a>
+										</div>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Thu</h6>
+									<div class="box1">
+										<p>5</p>
+									</div>
+									<div class="box1">
+										<p>12</p>
+									</div>
+									<div class="box1">
+										<p>19</p>
+									</div>
+									<div class="box1">
+										<p>26</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Fri</h6>
+									<div class="box1">
+										<p>6</p>
+									</div>
+									<div class="box1">
+										<p>13</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>20</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>27</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="cl">Sat</h6>
+									<div class="box3">
+										<p>7</p>
+									</div>
+									<div class="box3">
+										<p>14</p>
+									</div>
+									<div class="box3">
+										<p>21</p>
+									</div>
+									<div class="box3">
+										<p>28</p>
+									</div>
+									<div class="box4">
+									</div>
+								</div>
+							</div>
+							<div id="two" class="tabcontent">
+								<div class="sun">
+									<h6>Sun</h6>
+									<div class="box">
+										<p>1</p>
+									</div>
+									<div class="box">
+										<p>8</p>
+									</div>
+									<div class="box">
+										<p>15</p>
+									</div>
+									<div class="box">
+										<p>22</p>
+									</div>
+									<div class="box">
+										<p>29</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Mon</h6>
+									<div class="box1">
+										<p>2</p>
+									</div>
+									<div class="box1">
+										<p>9</p>
+									</div>
+									<div class="box1">
+										<p>16</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>23</p>
+									</div>
+									<div class="box1">
+										<p>30</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Tue</h6>
+									<div class="box1">
+										<p>3</p>
+									</div>
+									<div class="box1">
+										<p>10</p>
+									</div>
+									<div class="box1">
+										<p>17</p>
+									</div>
+									<div class="box1">
+										<p>24</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Wed</h6>
+									<div class="box1">
+										<p>4</p>
+									</div>
+									<div class="box1">
+										<p>11</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>18</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>25</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Thu</h6>
+									<div class="box1">
+										<p>5</p>
+									</div>
+									<div class="box1">
+										<p>12</p>
+									</div>
+									<div class="box1">
+										<p>19</p>
+									</div>
+									<div class="box1">
+										<p>26</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Fri</h6>
+									<div class="box1">
+										<p>6</p>
+									</div>
+									<div class="box1">
+										<p>13</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>20</p>
+									</div>
+									<div class="box1">
+										<p>27</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="cl">Sat</h6>
+									<div class="box3">
+										<p>7</p>
+									</div>
+									<div class="box3">
+										<p>14</p>
+									</div>
+									<div class="box3">
+										<p>21</p>
+									</div>
+									<div class="box3">
+										<p>28</p>
+									</div>
+									<div class="box4">
+									</div>
+								</div>
+							</div>
+							<div id="three" class="tabcontent">
+								<div class="sun">
+									<h6>Sun</h6>
+									<div class="box">
+										<p>1</p>
+									</div>
+									<div class="box">
+										<p>8</p>
+									</div>
+									<div class="box">
+										<p>15</p>
+									</div>
+									<div class="box">
+										<p>22</p>
+									</div>
+									<div class="box">
+										<p>29</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Mon</h6>
+									<div class="box1">
+										<p>2</p>
+									</div>
+									<div class="box1">
+										<p>9</p>
+									</div>
+									<div class="box1">
+										<p>16</p>
+									</div>
+									<div class="box1">
+										<p>23</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>30</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Tue</h6>
+									<div class="box1">
+										<p>3</p>
+									</div>
+									<div class="box1">
+										<p>10</p>
+									</div>
+									<div class="box1">
+										<p>17</p>
+									</div>
+									<div class="box1">
+										<p>24</p>
+									</div>
+									<div class="box1">
+										<p>31</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Wed</h6>
+									<div class="box1">
+										<p>4</p>
+									</div>
+									<div class="box1">
+										<p>11</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>18</p>
+									</div>
+									<div class="box1">
+										<p>25</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Thu</h6>
+									<div class="box1">
+										<p>5</p>
+									</div>
+									<div class="box1">
+										<p>12</p>
+									</div>
+									<div class="box1">
+										<p>19</p>
+									</div>
+									<div class="box1">
+										<p>26</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Fri</h6>
+									<div class="box1">
+										<p>6</p>
+									</div>
+									<div class="box1">
+										<p>13</p>
+									</div>
+									<div class="box1">
+										<p>20</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>27</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="cl">Sat</h6>
+									<div class="box3">
+										<p>7</p>
+									</div>
+									<div class="box3">
+										<p>14</p>
+									</div>
+									<div class="box3">
+										<p>21</p>
+									</div>
+									<div class="box3">
+										<p>28</p>
+									</div>
+									<div class="box4">
+									</div>
+								</div>
+							</div>
+							<div id="four" class="tabcontent">
+								<div class="sun">
+									<h6>Sun</h6>
+									<div class="box">
+										<p>1</p>
+									</div>
+									<div class="box">
+										<p>8</p>
+									</div>
+									<div class="box">
+										<p>15</p>
+									</div>
+									<div class="box">
+										<p>22</p>
+									</div>
+									<div class="box">
+										<p>29</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Mon</h6>
+									<div class="box1">
+										<p>2</p>
+									</div>
+									<div class="box1">
+										<p>9</p>
+									</div>
+									<div class="box1">
+										<p>16</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>23</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>30</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Tue</h6>
+									<div class="box1">
+										<p>3</p>
+									</div>
+									<div class="box1">
+										<p>10</p>
+									</div>
+									<div class="box1">
+										<p>17</p>
+									</div>
+									<div class="box1">
+										<p>24</p>
+									</div>
+									<div class="box1">
+										<p>31</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Wed</h6>
+									<div class="box1">
+										<p>4</p>
+									</div>
+									<div class="box1">
+										<p>11</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>18</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>25</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Thu</h6>
+									<div class="box1">
+										<p>5</p>
+									</div>
+									<div class="box1">
+										<p>12</p>
+									</div>
+									<div class="box1">
+										<p>19</p>
+									</div>
+									<div class="box1">
+										<p>26</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Fri</h6>
+									<div class="box1">
+										<p>6</p>
+									</div>
+									<div class="box1">
+										<p>13</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>20</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>27</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="cl">Sat</h6>
+									<div class="box3">
+										<p>7</p>
+									</div>
+									<div class="box3">
+										<p>14</p>
+									</div>
+									<div class="box3">
+										<p>21</p>
+									</div>
+									<div class="box3">
+										<p>28</p>
+									</div>
+									<div class="box4">
+									</div>
+								</div>
+							</div>
+							<div id="five" class="tabcontent">
+								<div class="sun">
+									<h6>Sun</h6>
+									<div class="box">
+										<p>1</p>
+									</div>
+									<div class="box">
+										<p>8</p>
+									</div>
+									<div class="box">
+										<p>15</p>
+									</div>
+									<div class="box">
+										<p>22</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Mon</h6>
+									<div class="box1">
+										<p>2</p>
+									</div>
+									<div class="box1">
+										<p>9</p>
+									</div>
+									<div class="box1">
+										<p>16</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>23</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Tue</h6>
+									<div class="box1">
+										<p>3</p>
+									</div>
+									<div class="box1">
+										<p>10</p>
+									</div>
+									<div class="box1">
+										<p>17</p>
+									</div>
+									<div class="box1">
+										<p>24</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Wed</h6>
+									<div class="box1">
+										<p>4</p>
+									</div>
+									<div class="box1">
+										<p>11</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>18</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>25</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Thu</h6>
+									<div class="box1">
+										<p>5</p>
+									</div>
+									<div class="box1">
+										<p>12</p>
+									</div>
+									<div class="box1">
+										<p>19</p>
+									</div>
+									<div class="box1">
+										<p>26</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Fri</h6>
+									<div class="box1">
+										<p>6</p>
+									</div>
+									<div class="box1">
+										<p>13</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>20</p>
+									</div>
+									<div class="box1">
+										<p>27</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="cl">Sat</h6>
+									<div class="box3">
+										<p>7</p>
+									</div>
+									<div class="box3">
+										<p>14</p>
+									</div>
+									<div class="box3">
+										<p>21</p>
+									</div>
+									<div class="box3">
+										<p>28</p>
+									</div>
+									<div class="box4">
+									</div>
+								</div>
+							</div>
+							<div id="six" class="tabcontent">
+								<div class="sun">
+									<h6>Sun</h6>
+									<div class="box">
+										<p>1</p>
+									</div>
+									<div class="box">
+										<p>8</p>
+									</div>
+									<div class="box">
+										<p>15</p>
+									</div>
+									<div class="box">
+										<p>22</p>
+									</div>
+									<div class="box">
+										<p>29</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Mon</h6>
+									<div class="box1">
+										<p>2</p>
+									</div>
+									<div class="box1">
+										<p>9</p>
+									</div>
+									<div class="box1">
+										<p>16</p>
+									</div>
+									<div class="box1">
+										<p>23</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>30</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Tue</h6>
+									<div class="box1">
+										<p>3</p>
+									</div>
+									<div class="box1">
+										<p>10</p>
+									</div>
+									<div class="box1">
+										<p>17</p>
+									</div>
+									<div class="box1">
+										<p>24</p>
+									</div>
+									<div class="box1">
+										<p>31</p>
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Wed</h6>
+									<div class="box1">
+										<p>4</p>
+									</div>
+									<div class="box1">
+										<p>11</p>
+										<div class="click">
+											<a href="javascript:void(0)">MT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>18</p>
+									</div>
+									<div class="box1">
+										<p>25</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Thu</h6>
+									<div class="box1">
+										<p>5</p>
+									</div>
+									<div class="box1">
+										<p>12</p>
+									</div>
+									<div class="box1">
+										<p>19</p>
+									</div>
+									<div class="box1">
+										<p>26</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="co">Fri</h6>
+									<div class="box1">
+										<p>6</p>
+									</div>
+									<div class="box1">
+										<p>13</p>
+									</div>
+									<div class="box1">
+										<p>20</p>
+										<div class="click1">
+											<a href="javascript:void(0)">AT</a>
+										</div>
+									</div>
+									<div class="box1">
+										<p>27</p>
+									</div>
+									<div class="box2">
+									</div>
+								</div>
+								<div class="sun">
+									<h6 class="cl">Sat</h6>
+									<div class="box3">
+										<p>7</p>
+									</div>
+									<div class="box3">
+										<p>14</p>
+									</div>
+									<div class="box3">
+										<p>21</p>
+									</div>
+									<div class="box3">
+										<p>28</p>
+									</div>
+									<div class="box4">
+									</div>
+								</div>
+							</div>
+							<div class="hind">
+								<a href="javascript:void(0)">
+									<img class="cmn" src="img/cancel.png" alt="">
+								</a>
+								<div class="on">
+									<div class="one">
+										<h6>取得予定免許</h6>
+										<p>AT</p>
+									</div>
+									<div class="one1">
+										<p>入校日</p>
+										<p>2017年10月18日(金)</p>
+									</div>
+									<div class="one2">
+										<p>最短卒業予定日</p>
+										<p>2017年11月2日(木)</p>
+									</div>
+									<div class="one3">
+										<p>基本教習料金</p>
+										<p>215,371円(税込232,600円)</p>
+									</div>
+									<div class="one4">
+										<a href="">入校申し込み</a>
+									</div>
+								</div>
+							</div>
+							<div class="hind1">
+								<a href="javascript:void(0)">
+									<img class="cmn1" src="img/cancel.png" alt="">
+								</a>
+								<div class="on">
+									<div class="one">
+										<h6>取得予定免許</h6>
+										<p>MT</p>
+									</div>
+									<div class="one1">
+										<p>入校日</p>
+										<p>2017年10月18日(金)</p>
+									</div>
+									<div class="one2">
+										<p>最短卒業予定日</p>
+										<p>2017年11月2日(木)</p>
+									</div>
+									<div class="one3">
+										<p>基本教習料金</p>
+										<p>215,371円(税込232,600円)</p>
+									</div>
+									<div class="one4">
+										<a href="">入校申し込み</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="four">
+							<div class="left">
+								<img src="img/location.png" alt="">
+								<a href="">GoogleMAPで見る</a>
+							</div>
+							<div class="right">
+								<span><strong>■</strong> お気軽にお問合せください</span>
+								<p>〒848-0027<br>佐賀県伊万里市立花町3520<br><br>	
+									お客様センター：0120-23-5289</p>
+								<h6>
+									TEL:0955-23-5288<br> 
+									FAX:0955-23-3483
+								</h6>
+								<div class="bt">
+									<a href="">通学プランの入校スケジュール &nbsp; &nbsp;></a>
+									<a class="new" href="">合宿プランの入校スケジュール</a>
+								</div>
+								<div class="menu1">
+										<div class="one">
+											<a href="">
+												<img src="img/home.png" alt="">
+												<p>HOME</p>
+											</a>
+										</div>
+										<div class="one">
+											<a href="">
+												<img src="img/comment.png" alt="">
+												<p>お知らせ</p>
+											</a>
+										</div>
+										<div class="one">
+											<a href="">
+												<img src="img/house.png" alt="">
+												<p>学校案内</p>
+											</a>
+										</div>
+										<div class="one1">
+											<a href="">
+												<img src="img/car.png" alt="">
+												<p>教習プラン</p>
+											</a>
+										</div>
+										<div class="one2">
+											<a href="">
+												<img src="img/pen.png" alt="">
+												<p>入校手続</p>
+											</a>
+										</div>
+										<div class="one2">
+											<a href="">
+												<img src="img/key.png" alt="">
+												<p>8つのメリット</p>
+											</a>
+										</div>
+										<div class="one2">
+											<a href="">
+												<img src="img/bus.png" alt="">
+												<p>スクールバス</p>
+											</a>
+										</div>
+										<div class="one3">
+											<a href="">
+												<img src="img/men.png" alt="">
+												<p>スタッフ紹介</p>
+											</a>
+										</div>
+									</div>
+							</div>
+							<div class="back">
+								<a href="javascript:void(0);">
+									<img src="img/back.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="footer">
+					<div class="final">
+						<div class="left">
+							<img src="img/add.png" alt="">
+							<img class="change" src="img/clock.png" alt="">
+							<img src="img/man.png" alt="">
+						</div>
+						<div class="right">
+							<a href="">
+								<img src="img/fb.png" alt="">
+							</a>
+							<a href="">
+								<img class="change" src="img/tt.png" alt="">
+							</a>
+							<a href="">
+								<img src="img/ln.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</body>
+</html>

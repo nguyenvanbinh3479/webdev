@@ -1,0 +1,299 @@
+#envelop {
+  margin: 0;
+  padding: 0; }
+  #envelop #header {
+    overflow: hidden; }
+    #envelop #header .logo-menu {
+      background-color: #02918c;
+      overflow: hidden; }
+      #envelop #header .logo-menu a {
+        margin: 0px 53px; }
+        #envelop #header .logo-menu a img {
+          margin: 20px 0px; }
+      #envelop #header .logo-menu ul {
+        list-style: none;
+        float: right;
+        margin: 21px 0px;
+        padding: 0px; }
+        #envelop #header .logo-menu ul li {
+          display: inline-block;
+          margin: 0px 24.5px; }
+          #envelop #header .logo-menu ul li a {
+            margin: 0px 0px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold; }
+    #envelop #header .banner {
+      background: url(../img/banner.png) no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+      text-align: center; }
+      #envelop #header .banner .center {
+        width: 1000px;
+        margin: 211px auto 234px;
+        color: white; }
+        #envelop #header .banner .center p {
+          margin: 0px 0px;
+          font-size: 35.5px; }
+        #envelop #header .banner .center h1 {
+          margin: 0px;
+          font-family: fantasy;
+          letter-spacing: 32px;
+          font-size: 71px; }
+        #envelop #header .banner .center dd {
+          font-size: 21px; }
+        #envelop #header .banner .center img {
+          margin: 50px 0px 70px 0px; }
+        #envelop #header .banner .center a {
+          color: black;
+          padding: 16px 44px;
+          background-color: #cfc91d;
+          font-family: fantasy;
+          font-size: 15px;
+          letter-spacing: 5px;
+          text-decoration: none; }
+          #envelop #header .banner .center a:hover {
+            color: #cfc91d;
+            background-color: black; }
+  #envelop #content {
+    overflow: hidden;
+    margin: 0; }
+    #envelop #content .about {
+      width: 1100px;
+      margin: 0 auto;
+      overflow: hidden; }
+      #envelop #content .about .top {
+        text-align: center;
+        margin: 93px 0px; }
+        #envelop #content .about .top h2 {
+          margin-bottom: 17px;
+          font-size: 51px;
+          font-weight: bold;
+          color: #02918c; }
+        #envelop #content .about .top img {
+          width: 170px; }
+        #envelop #content .about .top p {
+          margin-top: 29px;
+          font-size: 18px;
+          color: #7e8287; }
+          #envelop #content .about .top p strong {
+            font-size: 29px; }
+      #envelop #content .about .bottom {
+        text-align: center;
+        overflow: hidden; }
+        #envelop #content .about .bottom .one {
+          list-style: none;
+          overflow: hidden;
+          padding: 0px;
+          float: left; }
+          #envelop #content .about .bottom .one::before {
+            content: "";
+            position: absolute;
+            background: #d8d8d8;
+            width: 2px;
+            height: 272px;
+            margin: 0px 0px 0px 97px; }
+          #envelop #content .about .bottom .one li {
+            display: inline-block;
+            margin: 46px 113px 0px 14px;
+            float: left;
+            color: #7e8287; }
+            #envelop #content .about .bottom .one li img {
+              width: 34px; }
+            #envelop #content .about .bottom .one li p {
+              font-weight: bold;
+              font-size: 18.5px;
+              margin-top: 27px; }
+            #envelop #content .about .bottom .one li dd {
+              margin-top: 20px;
+              font-size: 12px; }
+        #envelop #content .about .bottom .two {
+          list-style: none;
+          overflow: hidden;
+          padding: 0px;
+          float: left; }
+          #envelop #content .about .bottom .two li {
+            display: inline-block;
+            margin: 56px 0px 0px 12px;
+            float: left;
+            color: #7e8287; }
+            #envelop #content .about .bottom .two li img {
+              width: 34px; }
+            #envelop #content .about .bottom .two li p {
+              font-weight: bold;
+              font-size: 18.5px;
+              margin-top: 27px; }
+            #envelop #content .about .bottom .two li dd {
+              margin-top: 20px;
+              font-size: 12px; }
+    #envelop #content .services {
+      background: url(../img/services.png) no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+      margin-top: 161px; }
+      #envelop #content .services .left {
+        width: 678px;
+        float: left; }
+        #envelop #content .services .left .top {
+          margin-left: 95px;
+          margin-top: 71px; }
+          #envelop #content .services .left .top h2 {
+            font-size: 46px;
+            font-family: fantasy;
+            letter-spacing: 8px;
+            color: #02918c; }
+          #envelop #content .services .left .top img {
+            margin-top: 28px; }
+          #envelop #content .services .left .top p {
+            font-size: 17.5px;
+            margin-top: 30px;
+            color: #7e8287; }
+        #envelop #content .services .left .bottom {
+          width: 678px;
+          float: left;
+          height: 483px; }
+          #envelop #content .services .left .bottom .one {
+            list-style: none;
+            padding: 0px;
+            overflow: hidden;
+            float: left; }
+            #envelop #content .services .left .bottom .one li {
+              display: inline-block;
+              margin: 24px 21px 0px 99px;
+              float: left;
+              color: #7e8287; }
+              #envelop #content .services .left .bottom .one li img {
+                width: 33px;
+                margin-top: 16px; }
+              #envelop #content .services .left .bottom .one li p {
+                font-weight: bold;
+                font-size: 18.5px;
+                margin-top: 10px; }
+              #envelop #content .services .left .bottom .one li dd {
+                margin-top: 20px;
+                font-size: 12px; }
+          #envelop #content .services .left .bottom .two {
+            list-style: none;
+            padding: 0px;
+            overflow: hidden;
+            float: left;
+            margin-bottom: 16px; }
+            #envelop #content .services .left .bottom .two li {
+              display: inline-block;
+              margin: 24px 21px 0px 99px;
+              float: left;
+              color: #7e8287; }
+              #envelop #content .services .left .bottom .two li img {
+                width: 33px;
+                margin-top: 16px; }
+              #envelop #content .services .left .bottom .two li p {
+                font-weight: bold;
+                font-size: 18.5px;
+                margin-top: 10px; }
+              #envelop #content .services .left .bottom .two li dd {
+                margin-top: 20px;
+                font-size: 12px; }
+    #envelop #content .mywork {
+      overflow: hidden;
+      margin: 0 auto; }
+      #envelop #content .mywork .top {
+        margin: 110px auto 0px;
+        text-align: center; }
+        #envelop #content .mywork .top h2 {
+          font-size: 45px;
+          font-weight: bold;
+          letter-spacing: 4px;
+          color: #02918c; }
+        #envelop #content .mywork .top img {
+          margin-top: 16px; }
+        #envelop #content .mywork .top p {
+          margin-top: 27px;
+          font-size: 18px; }
+      #envelop #content .mywork .bottom {
+        margin-top: 74px; }
+        #envelop #content .mywork .bottom .first {
+          width: 336px;
+          float: left;
+          height: 251px; }
+          #envelop #content .mywork .bottom .first img {
+            width: 339px; }
+          #envelop #content .mywork .bottom .first .one {
+            display: none;
+            width: 279px;
+            margin: 20px auto;
+            position: relative;
+            background-color: #1e928b;
+            opacity: 0.9;
+            padding: 57px 0px;
+            color: white;
+            text-align: center; }
+            #envelop #content .mywork .bottom .first .one p {
+              font-weight: bold;
+              font-size: 18px; }
+    #envelop #content .contactme {
+      text-align: center;
+      overflow: hidden; }
+      #envelop #content .contactme .top {
+        margin-top: 96px; }
+        #envelop #content .contactme .top h2 {
+          font-size: 44px;
+          font-family: fantasy;
+          letter-spacing: 11px;
+          color: #02918c; }
+        #envelop #content .contactme .top img {
+          margin-top: 18px; }
+        #envelop #content .contactme .top p {
+          font-size: 17.5px;
+          margin-top: 30px;
+          color: #7e8287; }
+      #envelop #content .contactme .bottom {
+        background-color: #0b0b0b;
+        color: #7e8287;
+        margin-top: 61px;
+        overflow: hidden;
+        height: 590px; }
+        #envelop #content .contactme .bottom .title {
+          margin: 70px 0px;
+          font-weight: bold;
+          font-size: 16px;
+          position: relative; }
+          #envelop #content .contactme .bottom .title::after {
+            background: #7e8287;
+            content: '';
+            display: block;
+            height: 1px;
+            width: 669px;
+            margin: 18px auto; }
+        #envelop #content .contactme .bottom .title2 {
+          margin: 70px 0px 91px 0px;
+          font-weight: bold;
+          font-size: 16px;
+          position: relative; }
+          #envelop #content .contactme .bottom .title2::after {
+            background: #7e8287;
+            content: '';
+            display: block;
+            height: 1px;
+            width: 964px;
+            margin: 7px auto; }
+        #envelop #content .contactme .bottom a {
+          color: black;
+          padding: 16px 65px;
+          background-color: #cfc91d;
+          font-family: fantasy;
+          font-size: 15px;
+          letter-spacing: 5px;
+          text-decoration: none; }
+          #envelop #content .contactme .bottom a:hover {
+            color: #cfc91d;
+            background-color: black; }
+  #envelop #footer {
+    background-color: #000000;
+    color: white;
+    text-align: center; }
+    #envelop #footer p {
+      padding: 30px;
+      margin: 0px;
+      color: #7e8287; }
+
+/*# sourceMappingURL=styles.css.map */

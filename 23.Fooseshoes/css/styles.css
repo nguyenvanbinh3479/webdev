@@ -1,0 +1,831 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#envelop {
+  background-color: #242424;
+  overflow: hidden; }
+
+#header p {
+  font-family: "SimSun";
+  color: #57c5a0;
+  font-size: 24px;
+  margin: 9px 617px 0px 220px;
+  float: left;
+  opacity: 1; }
+  #header p:hover {
+    opacity: 0.5; }
+#header .heo {
+  margin-right: 20px;
+  padding: 14px 22px 11px 0px;
+  border-right: 1px solid #383838; }
+#header span {
+  margin: 0px 220px 0px 0px;
+  padding: 16px 19px 16px 0px;
+  font-size: 10px;
+  text-decoration: none;
+  color: #7e7e7e;
+  float: right;
+  border-right: 1px solid #383838; }
+  #header span:hover {
+    color: #fff; }
+#header .hind {
+  display: none; }
+
+#banner {
+  background-color: white;
+  overflow: hidden; }
+  #banner ul {
+    float: left;
+    margin: 0px 0px 0px 221px;
+    padding: 0; }
+    #banner ul li {
+      font-size: 18px;
+      padding: 18px 19px;
+      display: inline-block;
+      border-left: 1px solid #eeeeee; }
+      #banner ul li:hover {
+        color: #57c5a0; }
+    #banner ul .oi {
+      border-right: 1px solid #eeeeee; }
+  #banner .shop {
+    float: right;
+    width: 70px;
+    margin-right: 220px;
+    padding: 15px 8px;
+    border-right: 1px solid #cccccc; }
+    #banner .shop img {
+      float: left;
+      margin-left: 12px;
+      margin-top: 11px; }
+    #banner .shop div {
+      margin-right: 15px;
+      margin-top: 7px;
+      padding: 1px 7px;
+      -webkit-border-radius: 5px;
+      float: right;
+      background-color: #adadad; }
+      #banner .shop div:hover {
+        background-color: #57c5a0; }
+      #banner .shop div span {
+        color: white;
+        font-size: 11px; }
+  #banner .shop2 {
+    float: right;
+    width: 70px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    padding: 16px 8px; }
+    #banner .shop2 img {
+      float: left;
+      margin-left: 12px;
+      margin-top: 5px; }
+    #banner .shop2 div {
+      margin-right: 11px;
+      margin-top: 5px;
+      padding: 1px 5px;
+      -webkit-border-radius: 5px;
+      float: right;
+      background-color: #adadad; }
+      #banner .shop2 div:hover {
+        background-color: #57c5a0; }
+      #banner .shop2 div span {
+        color: white;
+        font-size: 11px; }
+
+#content {
+  overflow: hidden; }
+  #content .pink {
+    background: url(../img/leg.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden; }
+    #content .pink .left {
+      margin-bottom: 75px;
+      float: right; }
+      #content .pink .left .number {
+        margin: 69px 568px 10px 0px;
+        padding: 23px 5px;
+        background-color: #57c5a0;
+        float: left; }
+        #content .pink .left .number span {
+          font-family: "Myriad Pro";
+          font-weight: bold;
+          color: white; }
+      #content .pink .left h1 {
+        margin: 0;
+        font-size: 43px;
+        font-weight: normal; }
+      #content .pink .left p {
+        margin: 0px 0px 16px 0px;
+        font-size: 21px; }
+    #content .pink .eye {
+      margin-left: 2px;
+      padding: 10px 12px;
+      background-color: #fafaf9;
+      float: left; }
+    #content .pink .eye1 {
+      margin-left: 2px;
+      padding: 13px 12px 5px 12px;
+      background-color: #fafaf9;
+      float: left; }
+    #content .pink .eye2 {
+      margin-left: 2px;
+      padding: 13px 12px 6px 12px;
+      background-color: #fafaf9;
+      float: left; }
+  #content .troll {
+    background-color: #2e2e2e;
+    overflow: hidden; }
+    #content .troll .fin p {
+      display: none; }
+    #content .troll .sale {
+      text-align: center;
+      background: url(../img/troll.png) no-repeat;
+      background-size: 82% 12%;
+      margin: 5px 0px 0px 212px;
+      overflow: hidden; }
+      #content .troll .sale .eno1 {
+        float: left;
+        margin-top: 3px;
+        margin-left: 10px;
+        padding: 20px 45px 18px 45px; }
+        #content .troll .sale .eno1:hover {
+          border-top: 5px solid #57c5a0; }
+        #content .troll .sale .eno1 p {
+          color: #acacac;
+          margin: 0px;
+          font-size: 19px; }
+          #content .troll .sale .eno1 p:hover {
+            color: white; }
+        #content .troll .sale .eno1 span {
+          color: #686868;
+          font-size: 13px; }
+      #content .troll .sale .eno2 {
+        float: left;
+        margin-top: 3px;
+        padding: 20px 45px 18px 18px; }
+        #content .troll .sale .eno2:hover {
+          border-top: 5px solid #57c5a0; }
+        #content .troll .sale .eno2 p {
+          color: #acacac;
+          margin: 0px;
+          font-size: 19px; }
+          #content .troll .sale .eno2 p:hover {
+            color: white; }
+        #content .troll .sale .eno2 span {
+          color: #686868;
+          font-size: 13px; }
+      #content .troll .sale .eno {
+        float: left;
+        margin-top: 3px;
+        margin-left: 10px;
+        padding: 20px 45px 18px 35px; }
+        #content .troll .sale .eno:hover {
+          border-top: 5px solid #57c5a0; }
+        #content .troll .sale .eno p {
+          color: #acacac;
+          margin: 0px;
+          font-size: 19px; }
+          #content .troll .sale .eno p:hover {
+            color: white; }
+        #content .troll .sale .eno span {
+          color: #686868;
+          font-size: 13px; }
+      #content .troll .sale .eno3 {
+        float: left;
+        margin-top: 3px;
+        margin-left: 10px;
+        padding: 20px 45px 18px 35px; }
+        #content .troll .sale .eno3:hover {
+          border-top: 5px solid #57c5a0; }
+        #content .troll .sale .eno3 p {
+          color: #acacac;
+          margin: 0px;
+          font-size: 19px; }
+          #content .troll .sale .eno3 p:hover {
+            color: white; }
+        #content .troll .sale .eno3 span {
+          color: #686868;
+          font-size: 13px; }
+  #content .shose {
+    margin: 25px 0px 15px 0px;
+    text-align: center;
+    overflow: hidden; }
+    #content .shose .black1 {
+      background: url(../img/blue.png) no-repeat;
+      background-size: 97% 96%;
+      overflow: hidden;
+      float: left;
+      margin-left: 220px;
+      margin-right: 10px; }
+      #content .shose .black1 p {
+        padding: 17px 44px;
+        color: white;
+        float: left;
+        margin: 61px 62px;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0.8); }
+    #content .shose .black2 {
+      background: url(../img/gray.png) no-repeat;
+      background-size: 97% 96%;
+      overflow: hidden;
+      float: left;
+      margin-right: 10px; }
+      #content .shose .black2 p {
+        padding: 17px 44px;
+        color: white;
+        float: left;
+        margin: 61px 22px;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0.8); }
+    #content .shose .black3 {
+      background: url(../img/black.png) no-repeat;
+      background-size: 97% 96%;
+      overflow: hidden;
+      float: left;
+      margin-right: 10px; }
+      #content .shose .black3 p {
+        padding: 17px 44px;
+        color: white;
+        float: left;
+        margin: 61px 47px;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0.8); }
+  #content .new {
+    background-color: #ebe7df;
+    overflow: hidden; }
+    #content .new .show {
+      overflow: hidden; }
+      #content .new .show .sho {
+        overflow: hidden; }
+        #content .new .show .sho p {
+          margin-left: 217px;
+          margin-top: 31px;
+          font-size: 26px;
+          color: #242424;
+          float: left; }
+        #content .new .show .sho a {
+          margin: 29px 222px;
+          text-decoration: none;
+          color: #bcb5a7;
+          float: right;
+          padding: 4px 17px;
+          border: 1px solid #bcb5a7; }
+      #content .new .show .even {
+        overflow: hidden; }
+        #content .new .show .even .sh1 {
+          float: left;
+          background: url(../img/sh1.png) no-repeat;
+          background-size: 100% 98%;
+          margin: 0px 21px 0px 220px; }
+          #content .new .show .even .sh1 .mm {
+            margin: 191px 118px 0px 0px; }
+            #content .new .show .even .sh1 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even .sh1 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even .sh1 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even .sh1 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even .sh1 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even .sh1 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even .sh1 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even .sh2 {
+          float: left;
+          background: url(../img/sh2.png) no-repeat;
+          background-size: 99% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even .sh2 .mm {
+            margin: 191px 200px 0px 0px; }
+            #content .new .show .even .sh2 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even .sh2 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 12px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even .sh2 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even .sh2 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even .sh2 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even .sh2 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even .sh2 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even .sh {
+          float: left;
+          background: url(../img/sh.png) no-repeat;
+          background-size: 85% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even .sh .mm {
+            margin: 191px 250px 0px 0px; }
+            #content .new .show .even .sh .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even .sh .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even .sh .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even .sh .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even .sh .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even .sh .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even .sh .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even .sh3 {
+          float: left;
+          background: url(../img/sh3.png) no-repeat;
+          background-size: 100% 101%;
+          margin: 0px 21px 0px 220px; }
+          #content .new .show .even .sh3 .mm {
+            margin: 191px 200px 0px 0px; }
+            #content .new .show .even .sh3 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even .sh3 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even .sh3 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even .sh3 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even .sh3 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even .sh3 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even .sh3 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even .sh4 {
+          float: left;
+          background: url(../img/sh4.png) no-repeat;
+          background-size: 99% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even .sh4 .mm {
+            margin: 191px 200px 0px 0px; }
+            #content .new .show .even .sh4 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even .sh4 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 12px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even .sh4 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even .sh4 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even .sh4 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even .sh4 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even .sh4 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even .sh6 {
+          float: left;
+          background: url(../img/sh6.png) no-repeat;
+          background-size: 85% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even .sh6 .mm {
+            margin: 191px 250px 0px 0px; }
+            #content .new .show .even .sh6 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even .sh6 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even .sh6 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even .sh6 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even .sh6 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even .sh6 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even .sh6 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+      #content .new .show .even1 {
+        overflow: hidden; }
+        #content .new .show .even1 .sh1 {
+          float: left;
+          background: url(../img/sh1.png) no-repeat;
+          background-size: 100% 98%;
+          margin: 0px 21px 0px 220px; }
+          #content .new .show .even1 .sh1 .mm {
+            margin: 191px 118px 0px 0px; }
+            #content .new .show .even1 .sh1 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even1 .sh1 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even1 .sh1 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even1 .sh1 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even1 .sh1 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even1 .sh1 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even1 .sh1 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even1 .sh2 {
+          float: left;
+          background: url(../img/sh2.png) no-repeat;
+          background-size: 99% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even1 .sh2 .mm {
+            margin: 191px 200px 0px 0px; }
+            #content .new .show .even1 .sh2 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even1 .sh2 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 12px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even1 .sh2 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even1 .sh2 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even1 .sh2 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even1 .sh2 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even1 .sh2 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even1 .sh {
+          float: left;
+          background: url(../img/sh.png) no-repeat;
+          background-size: 85% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even1 .sh .mm {
+            margin: 191px 250px 0px 0px; }
+            #content .new .show .even1 .sh .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even1 .sh .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even1 .sh .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even1 .sh .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even1 .sh .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even1 .sh .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even1 .sh .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even1 .sh3 {
+          float: left;
+          background: url(../img/sh3.png) no-repeat;
+          background-size: 100% 101%;
+          margin: 0px 21px 0px 220px; }
+          #content .new .show .even1 .sh3 .mm {
+            margin: 191px 200px 0px 0px; }
+            #content .new .show .even1 .sh3 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even1 .sh3 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even1 .sh3 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even1 .sh3 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even1 .sh3 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even1 .sh3 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even1 .sh3 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even1 .sh4 {
+          float: left;
+          background: url(../img/sh4.png) no-repeat;
+          background-size: 99% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even1 .sh4 .mm {
+            margin: 191px 200px 0px 0px; }
+            #content .new .show .even1 .sh4 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even1 .sh4 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 12px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even1 .sh4 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even1 .sh4 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even1 .sh4 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even1 .sh4 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even1 .sh4 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+        #content .new .show .even1 .sh6 {
+          float: left;
+          background: url(../img/sh6.png) no-repeat;
+          background-size: 85% 101%;
+          margin: 0px 13px 0px 0px; }
+          #content .new .show .even1 .sh6 .mm {
+            margin: 191px 250px 0px 0px; }
+            #content .new .show .even1 .sh6 .mm p {
+              font-size: 18px;
+              padding-top: 15px;
+              float: left; }
+            #content .new .show .even1 .sh6 .mm a {
+              float: left;
+              padding: 24px 7px;
+              margin: 0px 13px;
+              background-color: #57c5a0;
+              color: white; }
+            #content .new .show .even1 .sh6 .mm img {
+              float: left;
+              margin: 0 auto; }
+            #content .new .show .even1 .sh6 .mm .ey {
+              margin: 35px 0px 0px 15px; }
+            #content .new .show .even1 .sh6 .mm .sta {
+              margin: 30px 0px 0px 15px; }
+            #content .new .show .even1 .sh6 .mm .ou {
+              margin: 33px 0px 0px 15px; }
+            #content .new .show .even1 .sh6 .mm .bu {
+              margin: 32px 0px 0px 15px; }
+    #content .new .free {
+      width: 905px;
+      float: left;
+      margin: 50px 0px 25px 223px;
+      padding-top: 24px;
+      border-top: 1px solid #bcb5a7; }
+      #content .new .free .tes {
+        background-color: #dfdbd4;
+        float: left;
+        width: 211px;
+        height: 180px;
+        margin-right: 21px; }
+        #content .new .free .tes p {
+          margin: 30px 0px 9px 11px;
+          font-weight: bold;
+          font-size: 12px; }
+        #content .new .free .tes span {
+          margin-left: 12px;
+          font-size: 13px; }
+      #content .new .free .blog2 {
+        background-color: #dfdbd4;
+        float: left;
+        width: 441px;
+        height: 180px; }
+        #content .new .free .blog2 p {
+          margin: 30px 0px 0px 13px;
+          font-weight: bold;
+          font-size: 12px; }
+        #content .new .free .blog2 .zero {
+          overflow: hidden;
+          margin-left: 14px;
+          margin-top: 17px; }
+          #content .new .free .blog2 .zero img {
+            float: left; }
+          #content .new .free .blog2 .zero p {
+            margin: 3px 0px 0px 45px;
+            font-weight: bold;
+            font-size: 14px; }
+          #content .new .free .blog2 .zero span {
+            float: left;
+            margin-left: 10px;
+            font-size: 13px; }
+  #content .text {
+    background-color: #242424;
+    overflow: hidden;
+    border-bottom: 1px solid #1c1c1c; }
+    #content .text .tex {
+      float: left;
+      margin: 40px 0px 0px 262px; }
+      #content .text .tex p {
+        color: #7d7d7d;
+        font-size: 12px;
+        margin: 12px 0px 15px 0px; }
+      #content .text .tex span {
+        color: #a4a4a4;
+        font-size: 13px; }
+    #content .text .twi {
+      float: left;
+      margin: 38px 0px 20px 45px; }
+      #content .text .twi p {
+        color: #7d7d7d;
+        font-size: 13px; }
+      #content .text .twi span {
+        color: #a4a4a4;
+        font-size: 13px; }
+        #content .text .twi span a {
+          color: #57c5a0; }
+        #content .text .twi span h6 {
+          color: #c4c5bf;
+          font-size: 12px;
+          margin: 10px 0px; }
+    #content .text .twi2 {
+      float: left;
+      margin: 38px 0px 20px 45px; }
+      #content .text .twi2 p {
+        color: #7d7d7d;
+        font-size: 13px; }
+      #content .text .twi2 .pict {
+        width: 300px; }
+  #content .enter {
+    overflow: hidden; }
+    #content .enter .email {
+      width: 860px;
+      margin: 24px 0px 28px 260px;
+      overflow: hidden; }
+      #content .enter .email p {
+        background-color: #2e2e2e;
+        padding: 10px 52px 10px 15px;
+        float: left;
+        color: #7d7d7d;
+        font-size: 13px; }
+      #content .enter .email .qq {
+        margin-top: 14px;
+        width: 35px; }
+    #content .enter .aa {
+      float: right;
+      margin-top: 12px;
+      margin-right: 36px;
+      width: 200px; }
+
+#footer {
+  background-color: #2e2e2e;
+  padding-top: 8px; }
+  #footer .copy {
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden; }
+    #footer .copy p {
+      float: left;
+      color: #acacac;
+      margin: 18px 14px;
+      font-size: 13px; }
+    #footer .copy ul {
+      float: right;
+      margin: 23px 21px 37px 0px; }
+      #footer .copy ul li {
+        color: #acacac;
+        display: inline-block;
+        font-size: 13px; }
+
+@media screen and (max-width: 320px) {
+  #envelop {
+    width: 100%; }
+    #envelop #header {
+      width: 100%; }
+      #envelop #header .unknow {
+        width: 100%; }
+        #envelop #header .unknow img {
+          margin-left: 64px; }
+    #envelop #banner {
+      width: 100%; }
+      #envelop #banner ul {
+        width: 30%;
+        float: right;
+        margin-left: 223px; }
+        #envelop #banner ul .oi {
+          border-right: none; }
+      #envelop #banner .shop {
+        padding: 15px 42px 15px 51px; }
+      #envelop #banner .shop2 {
+        margin: 0px;
+        padding: 16px 42px 16px 42px; }
+    #envelop #content {
+      width: 100%; }
+      #envelop #content .pink .left p {
+        font-size: 8px; }
+      #envelop #content .pink .left .eye {
+        margin: 5px 9px; }
+      #envelop #content .pink .left .eye2 {
+        margin: 5px 9px; }
+      #envelop #content .pink .left .eye1 {
+        margin: 5px 9px; }
+      #envelop #content .troll {
+        width: 100%; }
+        #envelop #content .troll .sale {
+          width: 100%;
+          background-size: 100%  100%; }
+          #envelop #content .troll .sale .eno {
+            margin-left: 12px; }
+          #envelop #content .troll .sale .eno1 {
+            margin-left: 8px; }
+          #envelop #content .troll .sale .eno2 {
+            margin-left: 9px; }
+          #envelop #content .troll .sale .eno3 {
+            margin-left: 9px; }
+      #envelop #content .shose .black2 {
+        background-size: 100% 100%;
+        margin-right: 26px; }
+      #envelop #content .shose .black3 {
+        background-size: 100% 100%;
+        margin-right: 26px;
+        margin-top: 10px; }
+      #envelop #content .new .show .sho p {
+        font-size: 20px; }
+      #envelop #content .new .show .sho a {
+        width: 65px;
+        margin: 20px 110px; }
+      #envelop #content .new .show .even .sh1 {
+        width: 94%;
+        margin: 10px; }
+      #envelop #content .new .show .even .sh2 {
+        width: 95%;
+        margin: 10px; }
+      #envelop #content .new .show .even .sh {
+        width: 110%;
+        margin: 10px; }
+      #envelop #content .new .show .even1 .sh3 {
+        width: 94%;
+        margin: 10px; }
+      #envelop #content .new .show .even1 .sh4 {
+        width: 95%;
+        margin: 10px; }
+      #envelop #content .new .show .even1 .sh6 {
+        width: 110%;
+        margin: 10px; }
+      #envelop #content .new .free .tes span {
+        font-size: 10px; }
+      #envelop #content .new .free .blog2 {
+        width: 100%;
+        overflow: hidden; }
+        #envelop #content .new .free .blog2 .zero span {
+          font-size: 9px; }
+      #envelop #content .text .tex {
+        margin: 20px 0px 0px 40px; }
+      #envelop #content .text .twi {
+        margin: 20px 0px 0px 40px; }
+      #envelop #content .text .twi2 {
+        margin: 20px 0px 0px 40px; }
+      #envelop #content .enter .email p {
+        margin: 12px 0px 5px 38px; }
+      #envelop #content .enter .email .aa {
+        margin: 10px 60px 15px 0px; }
+    #envelop #footer {
+      width: 100%; }
+      #envelop #footer .copy ul {
+        width: 97px; } }
+
+/*# sourceMappingURL=styles.css.map */

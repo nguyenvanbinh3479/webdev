@@ -1,0 +1,293 @@
+@charset "utf-8";
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	opacity: 0.9;
+}
+img:hover{
+	opacity: 1;
+}
+#header
+{
+	background-color: #008ad0;
+	overflow: hidden;
+}
+	#header p
+	{
+		color: white;
+		padding: 10px;
+		margin-left: 20px;
+	}
+#content
+{
+
+}
+	#content .logo
+	{
+		overflow: hidden;
+	}
+		.logo .left
+		{
+			margin: 30px;
+			float: left;
+		}
+			.left img
+			{
+				width: 70px;
+				float: left;
+			}
+			.left h1
+			{
+				margin: 20px;
+				float: right;
+				color: #008ad0;
+			}
+		.logo .right
+		{
+			width: 500px;
+			margin-top:20px;
+			margin-right: 30px;
+			margin-bottom: 20px;
+			padding-top: 10px;
+			padding-left: 30px;
+			float: right;
+			background-color: #fafafa;
+		}
+			.right h2
+			{
+				margin-bottom: 20px;
+			}
+			.right img{
+				width: 12px;
+				border: 1px solid silver;
+			}
+			.right .actions
+			{
+				float: left;
+			}
+				.actions input
+				{
+					margin-top: 20px;
+					padding: 0 15px;
+					background-color: #b5b5b5;
+				}
+				.actions p
+				{
+					float: right;
+					margin-top: 20px;
+					margin-left: 10px;
+				}
+			.right .info
+			{
+				float: right;
+				margin-top: 20px;
+				margin-bottom: 30px;
+			}
+	#content .menu
+	{
+		background-color: #51cfee;
+		border-bottom: 3px solid #ffba00;
+		text-align: center;
+	}
+		.menu li
+		{
+			display: inline-block;
+			border-left: 1px solid white;
+			padding: 15px 70px;
+		}
+		.menu li:hover
+		{
+			border-left: 1px solid #51cfee;
+			background-color: #ffba00;
+		}
+		.menu .hi
+		{
+			border-right: 1px solid white;
+		}
+			.menu a
+			{
+				text-decoration: none;
+				color: white;
+				font-size: 20px;
+			}
+	#content .place
+	{
+		overflow: hidden;
+	}
+		.place .left
+		{
+			float: left;
+			margin-top: 110px;
+		}
+			.left .one
+			{	width: 246px;
+				margin-left: 50px;
+				overflow: hidden;
+			}
+				.one p
+				{
+					color: #ff8000;
+					font-weight: bold;
+					float: left;
+				}
+				.one h3
+				{
+					float: left;
+					font-size: 30px;
+					margin-top: 36px;
+				}
+			.left .two
+			{
+				margin-left: 30px;
+				margin-top: 30px;
+				border: 1px solid silver;
+				overflow: hidden;
+				border-bottom: 5px solid #ff8000;
+			} 
+				.two p
+				{
+					color: #757575;
+					font-weight: bold;
+					font-size: 30px;
+					text-align: center;
+				}
+				.two img
+				{
+					padding-bottom: 30px;
+				}
+				.two .ho
+				{
+					margin-left: 30px;
+				}
+				.two .oh
+				{
+					width: 136px;
+				}
+			.left .three
+			{
+				margin-left: 30px;
+				margin-top: 20px;
+				border: 1px solid #ff8000;
+			}
+				.three .sil
+				{
+					background-color: #f7f7f7;
+					border-bottom: 1px dotted #ff8000;
+					overflow: hidden;
+				}
+					.sil img
+					{
+						width: 10px;
+						margin: 10px;
+					}
+					.sil p
+					{
+						margin-top: 12px;
+						font-size: 20px;
+					}
+				.three .ai
+				{
+					margin-top: 10px;
+					overflow: hidden;
+				}
+					.ai img
+					{
+						width: 10px;
+						margin: 10px;
+					}
+					.ai p
+					{
+						margin-top: 5px;
+					}
+		.place .right2
+		{
+			width: 1000px;
+			margin-top: 100px;
+			float: right;
+		}
+			.right2 .four
+			{
+				float: left;
+			} 
+				.four .fis
+				{
+					float: left;
+				}
+					.four .fi
+					{
+						width: 600px;
+					}
+					.four p
+					{
+						margin-top: 70px;
+						font-size: 30px;
+					}
+				.four .fo
+				{
+					width: 345px;
+				}
+			.right2 .ono
+			{
+				width: 978px;
+				margin-top: 50px;
+			}	
+				.five li
+				{
+					margin-top: 20px;
+					margin-left: 20px;
+					margin-bottom: 30px;
+					list-style-type: none;
+				}
+				.five .natural .hoe .heo{
+					display: none;
+				}
+				.five .natural .hoe:hover .heo{
+					display: block;
+				}
+				.five .natural
+				{
+					width: 945px;
+					margin-left: 22px;
+					border-bottom: 1px dotted silver;
+					padding-bottom: 10px;
+				}
+					.natural img
+					{
+						width: 10px;
+						float: left;
+					}
+	#content .page
+	{
+		margin-top: 50px;
+		background-color: #f4f4f4;
+		overflow: hidden;
+	}
+		.page .top
+		{
+			margin-top: 10px;
+			border-top: 1px solid silver;
+		}
+			.top img
+			{
+				margin: 25px;
+				width: 70px;
+				float: left;
+			}
+			.top p
+			{
+				margin-top: 50px;
+				font-size: 20px;
+			}
+#footer
+{
+	background-color: #008ad0;
+}
+	#footer p
+	{
+		text-align: center;
+		color: white;
+		font-size: 20px;
+	}

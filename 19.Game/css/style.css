@@ -1,0 +1,203 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	
+}
+	#header{
+		background-color: #7e52ca;
+		overflow: hidden;
+	}
+		#header .logo_menu{
+			width: 1170px;
+			margin: 0px auto;
+			overflow: hidden;
+		}
+			.logo_menu img{
+				width: 144px;
+				float: left;
+			}
+			.logo_menu ul{
+				width: 870px;
+				float: left;
+				margin-left: 153px;
+				margin-top: 16px;
+			}
+				.logo_menu li{
+					height: 18px;
+					display: inline-block;
+				}
+					.logo_menu li img{
+						width: 19px;
+						margin-right: 5px;
+					}
+					.logo_menu li a{
+						margin-right: 10px;
+						color: white;
+						font-weight: bold;
+					}
+					.logo_menu .men img{
+						padding-left: 30px;
+						border-left: 1px solid white;
+					}
+	#content {
+		overflow: hidden;
+		margin-top: 70px;
+	}
+		#content .left{
+			width: 270px;
+			float: left;
+			margin-left: 98px;
+			overflow: hidden;
+			border-right: 1px solid silver;
+		}
+			.left .find{
+				width: 239px;
+				padding: 10px 0px;
+				background-color: #f7f8f8;
+				overflow: hidden;
+				border: 1px solid silver;
+				margin-bottom: 20px;
+			}
+				.find p{
+					float: left;
+					margin-left: 10px;
+				}
+				.find img{
+					float: right;
+					margin-right: 10px;
+				}
+			.left .mrb{
+				width: 239px;
+				padding: 10px 0px;
+				background-color: #f7f8f8;
+				overflow: hidden;
+				border: 1px solid silver;
+				box-shadow: -4px 10px 99px -34px;
+			}
+				.mrb p{
+					float: right;
+					margin-top: 19px;
+					margin-right: 42px;
+				}
+				.mrb img{
+					margin-bottom: 20px;
+					margin-left: 20px;
+				}
+				.mrb span{
+					margin-left: 20px;
+				}
+			.left h2{
+				margin-top: 20px;
+				font-size: 20px;
+			}
+			.left .sanpham{
+				margin-top: 10px;
+			}
+				.sanpham img{
+					padding-top: 10px;
+					padding-right: 20px;
+					border-top: 3px solid #ff3366;
+				}
+				.sanpham p{
+					float: right;
+					margin-right: 51px;
+					margin-top: 22px;
+					font-size: 16px;
+				}
+				.left .sanpham2{
+				margin-top: 10px;
+			}
+				.sanpham2 img{
+					padding-top: 10px;
+					padding-right: 20px;
+				}
+				.sanpham2 p{
+					float: right;
+					margin-right: 51px;
+					margin-top: 22px;
+					font-size: 16px;
+				}
+			.left .hotro{
+				overflow: hidden;
+				margin-top: 20px;
+			}
+				.hotro h3{
+					margin-bottom: 10px;
+				}
+				.hotro p{
+					padding-top: 10px;
+					padding-right: 20px;
+					margin-top: 10px;
+					border-top: 3px solid #ff3366;
+				}
+				.hotro img{
+					margin-top: 20px;
+					margin-right: 10px;
+					margin-bottom: 20px;
+				}
+		#content .right{
+			width: 870px;
+			overflow: hidden;
+			padding-left: 30px;
+		}
+			.right .up{
+				overflow: hidden;
+			}
+				.up h1{
+					float: left;
+					border-bottom: 2px solid #ff3366;
+				}
+				.up .game{
+					float: right;
+					border: 1px solid silver;
+					padding: 10px 20px;
+				}
+					.game p{
+						border-right: 1px solid silver;
+						float: left;
+						padding-right: 10px;
+					}
+					.game img{
+						float: right;
+						margin-top: 6px;
+						margin-left: 15px;
+					}
+				.nhac{
+					margin: 20px;
+				}
+	#footer{
+		background-color: #160c27;
+		overflow: hidden;
+	}
+		#footer .logo_contact{
+			width: 1170px;
+			margin: 20px auto;
+		}
+			.logo_contact img{
+				margin-left: 15px;
+				float: left;
+				margin-top: 10px;
+			}
+			.logo_contact .image img{
+				padding-right: 20px;
+			}
+			.logo_contact .banquyen p{
+				color: white;
+				text-align: center;
+				float: left;
+				border-right: 1px solid #331e58;
+				border-left: 1px solid #331e58;
+				padding: 0px 40px;
+			}
+			.logo_contact .contact {
+				color: white;
+				text-align: center;
+			}
+				.contact span{
+					color: #febb07;
+					font-size: 25px;
+					font-weight: bold;
+				}

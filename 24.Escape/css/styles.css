@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#header {
+  background: url(..//img/banner.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+  #header .logo {
+    margin: 41px 0px 0px 222px;
+    float: left;
+    overflow: hidden; }
+    #header .logo img {
+      width: 35px;
+      float: left; }
+    #header .logo p {
+      margin: 2px 7px;
+      float: left;
+      color: white;
+      font-family: fantasy;
+      font-size: 21px;
+      font-weight: bold; }
+  #header .menu {
+    width: 430px;
+    overflow: hidden;
+    float: right;
+    margin: 32px 201px 0px 0px; }
+    #header .menu ul {
+      color: white; }
+      #header .menu ul li {
+        display: inline-block;
+        margin-right: 22px;
+        font-family: sans-serif; }
+  #header .home {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    overflow: hidden; }
+    #header .home p {
+      margin: 131px 0px 0px 0px;
+      font-size: 29px; }
+    #header .home h1 {
+      margin: 35px 0px 65px 0px;
+      font-size: 59px;
+      overflow: hidden; }
+    #header .home .but {
+      overflow: hidden;
+      padding: 16px 0px 138px 0px; }
+      #header .home .but a {
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        padding: 14px 70px;
+        font-size: 22px; }
+
+#content .del {
+  width: 61%;
+  margin: 46px auto 85px auto; }
+  #content .del .web {
+    float: left; }
+    #content .del .web h1 {
+      font-size: 58px; }
+      #content .del .web h1 span {
+        font-weight: normal; }
+    #content .del .web p {
+      color: #777777; }
+  #content .del .qq {
+    margin-left: 52px;
+    margin-top: 68px; }
+#content .fis {
+  background-color: #fafafa;
+  overflow: hidden; }
+  #content .fis .bran {
+    width: 61%;
+    margin: 46px auto 108px auto; }
+    #content .fis .bran .ww {
+      margin-top: 68px; }
+    #content .fis .bran .inden {
+      float: right; }
+      #content .fis .bran .inden h2 {
+        font-size: 58px; }
+        #content .fis .bran .inden h2 span {
+          font-weight: normal; }
+      #content .fis .bran .inden p {
+        color: #777777; }
+#content .sec {
+  width: 70%;
+  margin: 96px auto 45px auto;
+  overflow: hidden; }
+  #content .sec .pro {
+    margin: 0px 0px 60px 56px;
+    width: 364px;
+    overflow: hidden;
+    float: left; }
+    #content .sec .pro .ee {
+      float: left; }
+    #content .sec .pro .pur {
+      float: right; }
+      #content .sec .pro .pur p {
+        font-weight: bold;
+        margin: 0px 0px 6px 0px;
+        font-size: 19px; }
+      #content .sec .pro .pur span {
+        color: #777777; }
+  #content .sec .pro2 {
+    margin: 0px 0px 60px 104px;
+    width: 364px;
+    overflow: hidden;
+    float: left; }
+    #content .sec .pro2 .ee {
+      float: left; }
+    #content .sec .pro2 .pur {
+      float: right; }
+      #content .sec .pro2 .pur p {
+        font-weight: bold;
+        margin: 0px 0px 6px 0px;
+        font-size: 19px; }
+      #content .sec .pro2 .pur span {
+        color: #777777; }
+#content .some {
+  background-color: #fafafa;
+  overflow: hidden; }
+  #content .some .awe {
+    width: 403px;
+    margin: 0px auto;
+    text-align: center; }
+    #content .some .awe h3 {
+      margin: 93px 0px 0px 0px;
+      font-size: 53px; }
+      #content .some .awe h3 span {
+        font-weight: normal; }
+    #content .some .awe p {
+      color: #777777;
+      font-size: 19px;
+      margin: 0px; }
+  #content .some .proin {
+    overflow: hidden;
+    width: 921px;
+    margin: 44px auto 12px; }
+    #content .some .proin .rr {
+      float: left; }
+    #content .some .proin .jamie {
+      float: left;
+      border: 1px solid #777777;
+      padding: 39px 80px;
+      margin-top: 32px;
+      margin-left: 25px;
+      background-color: white; }
+      #content .some .proin .jamie p {
+        margin: 0px;
+        color: #777777;
+        font-size: 22px; }
+      #content .some .proin .jamie span {
+        color: #7690c5;
+        font-size: 18px; }
+  #content .some .proin1 {
+    overflow: hidden;
+    width: 900px;
+    margin: 12px auto 85px; }
+    #content .some .proin1 .rr {
+      float: left; }
+    #content .some .proin1 .jamie {
+      float: left;
+      border: 1px solid #777777;
+      padding: 39px 80px;
+      margin-top: 32px;
+      margin-right: 12px;
+      margin-left: 36px;
+      background-color: white; }
+      #content .some .proin1 .jamie p {
+        margin: 0px;
+        color: #777777;
+        font-size: 22px; }
+      #content .some .proin1 .jamie span {
+        color: #7690c5;
+        font-size: 18px; }
+#content .picture {
+  width: 816px;
+  margin: 37px auto 49px auto; }
+  #content .picture .ont {
+    margin: 6px 6px 6px 38px; }
+  #content .picture .on {
+    margin-left: 25px;
+    margin-top: 20px; }
+#content .team {
+  background-color: #111111;
+  color: white;
+  overflow: hidden; }
+  #content .team .amazing {
+    width: 400px;
+    margin: 0px auto;
+    text-align: center; }
+    #content .team .amazing h4 {
+      margin: 96px 0px 0px 0px;
+      font-size: 51px; }
+      #content .team .amazing h4 span {
+        font-weight: normal; }
+    #content .team .amazing p {
+      color: #777777;
+      font-size: 19px;
+      margin: 0px; }
+  #content .team .worr {
+    width: 854px;
+    margin: 78px auto 0px auto;
+    overflow: hidden; }
+    #content .team .worr .hold {
+      width: 283px;
+      float: left;
+      text-align: center; }
+      #content .team .worr .hold .tt {
+        margin-left: 35px; }
+      #content .team .worr .hold p {
+        margin: 13px 0px 0px 34px;
+        font-weight: bold; }
+        #content .team .worr .hold p span {
+          font-weight: normal;
+          color: #777777; }
+      #content .team .worr .hold .yy {
+        margin: 10px 0px 0px 41px; }
+      #content .team .worr .hold .uu {
+        margin-left: 7px;
+        margin-top: 10px; }
+  #content .team .p {
+    width: 700px;
+    margin: 38px auto 103px auto;
+    text-align: center; }
+    #content .team .p p {
+      font-size: 18px;
+      color: #777777; }
+
+#footer {
+  background-color: #7690c5;
+  color: white;
+  overflow: hidden; }
+  #footer .hello {
+    width: 912px;
+    margin: 89px auto 94px auto;
+    overflow: hidden; }
+    #footer .hello .left {
+      float: left;
+      width: 471px; }
+      #footer .hello .left .one h5 {
+        margin: 0px;
+        font-size: 52px; }
+        #footer .hello .left .one h5 span {
+          font-weight: normal; }
+      #footer .hello .left .two {
+        overflow: hidden; }
+        #footer .hello .left .two .a {
+          float: left;
+          overflow: hidden;
+          margin: 41px 0px 0px 7px; }
+          #footer .hello .left .two .a .b {
+            float: left; }
+          #footer .hello .left .two .a p {
+            float: left;
+            margin: 3px 17px;
+            font-size: 19px; }
+        #footer .hello .left .two .a1 {
+          float: left;
+          overflow: hidden;
+          margin: 41px 0px 0px 93px; }
+          #footer .hello .left .two .a1 .b {
+            float: left; }
+          #footer .hello .left .two .a1 p {
+            float: left;
+            margin: 3px 17px;
+            font-size: 19px; }
+        #footer .hello .left .two .a12 {
+          float: left;
+          overflow: hidden;
+          margin: 41px 0px 1px 50px; }
+          #footer .hello .left .two .a12 .b {
+            float: left; }
+          #footer .hello .left .two .a12 .b1 {
+            float: left;
+            margin-top: 4px; }
+          #footer .hello .left .two .a12 p {
+            float: left;
+            margin: 3px 17px;
+            font-size: 19px; }
+        #footer .hello .left .two .a123 {
+          float: left;
+          overflow: hidden;
+          margin: 41px 0px 1px 34px; }
+          #footer .hello .left .two .a123 .b {
+            float: left; }
+          #footer .hello .left .two .a123 .b1 {
+            float: left;
+            margin-top: 4px; }
+          #footer .hello .left .two .a123 p {
+            float: left;
+            margin: 3px 17px;
+            font-size: 19px; }
+    #footer .hello .right {
+      float: left;
+      width: 437px; }
+      #footer .hello .right .three {
+        background-color: white;
+        padding: 14px 0px 20px 17px; }
+        #footer .hello .right .three p {
+          color: #bbbbbb;
+          margin: 0px; }
+      #footer .hello .right .four {
+        background-color: white;
+        margin-top: 27px;
+        padding: 14px 0px 20px 17px; }
+        #footer .hello .right .four p {
+          color: #bbbbbb;
+          margin: 0px; }
+      #footer .hello .right .five {
+        background-color: white;
+        margin-top: 17px;
+        padding: 14px 0px 173px 17px; }
+        #footer .hello .right .five p {
+          color: #bbbbbb;
+          margin: 0px; }
+  #footer .final {
+    width: 899px;
+    margin: 0px auto;
+    border-top: 1px solid #87a0d2; }
+    #footer .final p {
+      text-align: center;
+      margin: 26px 0px 28px 0px;
+      font-size: 14px; }
+
+/*# sourceMappingURL=styles.css.map */

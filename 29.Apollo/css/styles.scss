@@ -1,0 +1,174 @@
+#envelop{
+    margin: 43px 42px;
+    #header{
+        background: url(../img/banner.png)no-repeat;
+        background-size: 100% 100%; 
+        overflow: hidden;
+        .menu{
+            float: right;
+            width: 140px;
+            margin-top: 27px;
+            p{
+                float: left;
+                margin-left: 11px;
+                font-size: 15px;
+            }
+            a{
+                margin-left: 18px;
+                img{
+                    width: 17px;
+                }
+            }
+        }
+        .banner{
+            float: left;
+            margin: 179px 153px 276px 153px;
+            h1{
+                font-size: 42px;
+                strong{
+                    color: black;
+                }
+            }
+            p{
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            dd::before{
+                background: black;
+                content: '';
+                position: absolute;
+                height: 67px;
+                width: 1px;
+                margin: 22px 3px;
+            }
+        }
+    }
+    #content{
+        overflow: hidden;
+        margin-top: 43px;
+        .photo{
+            background: url(../img/bk1.png)no-repeat;
+            background-size: 100% 100%;
+            overflow: hidden;
+            .right{   
+                width: 681px;
+                float: right;
+                margin: 131px 0px 0px 0px;
+                h2{
+                    margin-left: 99px;
+                    font-size: 39px;
+                    letter-spacing: 2px;
+                }
+                p{
+                    margin: 30px 0px 0px 0px;
+                    font-weight: bold;
+                }
+                img{
+                    margin: 67px 13px 93px 0px;
+                    width: 28px;
+                }
+            }
+        }
+        .girl{
+            background: url(../img/pk2.png)no-repeat;
+            background-size: 100% 100%;
+            overflow: hidden;
+            margin-top: 41px;
+            .one{
+                margin: 285px 0px 283px 43px;
+                width: 63px;
+            }
+            .two{
+                margin: 285px 43px 283px 0px;
+                width: 63px;
+                float: right;
+            }
+        }
+        .ut{
+            background: url(../img/bk3.png)no-repeat;
+            background-size: 100% 100%;
+            overflow: hidden;
+            margin-top: 42px;
+            .left{
+                width: 500px;
+                float: left;
+                margin: 156px 0px 0px 153px;
+                h2{
+                    font-size: 41px;
+                }
+                p{
+                    margin: 28px 0px 282px 0px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .girl2{
+            background: url(../img/bk4.png)no-repeat;
+            background-size: 100% 100%;
+            overflow: hidden;
+            margin-top: 40px;
+            .one{
+                margin: 290px 0px 278px 42px;
+                width: 63px;
+            }
+            .two{
+                margin: 290px 42px 278px 0px;
+                width: 63px;
+                float: right;
+            }
+        }
+    }
+    #footer{
+        background: url(../img/bk5.png)no-repeat;
+        background-size: 100% 100%;
+        margin-top: 42px;
+        text-align: center;
+        overflow: hidden;
+        .top{
+            margin: 82px 0px 0px 0px;
+            h2{
+                font-size: 43px;
+            }
+            p{
+                margin: 27px 0px 80px 0px;
+                font-weight: bold;
+            }
+        }
+        .bottom{
+            width: 492px;
+            text-align: start;
+            margin: 84px auto;
+            overflow: hidden;
+            p{
+                padding: 8px 0px 8px 17px;
+                border: 1px solid black;
+                width: 233px;
+                float: left;
+            }
+            .hi{
+                padding: 8px 0px 8px 17px;
+                border: 1px solid black;
+                width: 233px;
+                float: left;
+                margin-left: 26px;
+            }
+            dd{
+                padding: 8px 0px 80px 17px;
+                border: 1px solid black;
+                width: 492px;
+                float: left;
+                margin-top: 16px;
+            }
+            a{
+                padding: 9px 0px 9px 17px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                width: 492px;
+                float: left;
+                margin-top: 24px;
+                margin-bottom: 33px; 
+            }
+        }
+    }
+}

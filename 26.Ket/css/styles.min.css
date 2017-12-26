@@ -1,0 +1,62 @@
+body{margin:0;padding:0}
+#header{width:811px;margin:0 auto;overflow:hidden}
+#header .logo{float:left;margin-top:23px}
+#header .logo .p1{float:left;width:30px}
+#header .logo p{float:left;margin-left:15px;font-weight:700}
+#header .menu{float:right}
+#header .menu ul{margin:22px 0 0 0}
+#header .menu ul li{margin:0 10px;display:inline-block;font-size:10px;padding-bottom:29px}
+#header .menu ul li a{text-decoration:none;color:#000;padding-bottom:30px}
+#header .menu ul li a:hover{color:#22e5ff;border-bottom:1px solid #22e5ff}
+#banner{background-color:#252726;overflow:hidden}
+#banner .between{width:1000px;margin:198px auto;text-align:center;color:#fff}
+#banner .between h1{margin:0 0 15px 0;font-size:41px}
+#banner .between p{width:124px;margin:0 auto;padding:10px;border:1px solid #fff;font-size:11px}
+#content{overflow:hidden}
+#content .icon{width:803px;margin:0 auto;margin-top:96px;margin-bottom:84px;overflow:hidden}
+#content .icon .one{width:168px;float:left;text-align:center}
+#content .icon .one .pic1{width:39px;margin-bottom:33px}
+#content .icon .one p{font-size:11px;width:81px;margin:0 auto;margin-bottom:5px;padding-bottom:13px;border-bottom:2px solid #22e5ff}
+#content .icon .one span{font-size:10px;color:#929ba0}
+#content .icon .two{width:168px;float:left;text-align:center;margin-left:47px}
+#content .icon .two .pic1{width:39px;margin-bottom:30px}
+#content .icon .two p{font-size:11px;width:96px;margin:0 auto;margin-bottom:5px;padding-bottom:13px;border-bottom:2px solid #22e5ff}
+#content .icon .two span{font-size:10px;color:#929ba0}
+#content .icon .three{width:175px;float:left;text-align:center;margin-left:40px}
+#content .icon .three .pic1{width:39px;margin-bottom:30px}
+#content .icon .three p{font-size:11px;width:96px;margin:0 auto;margin-bottom:5px;padding-bottom:13px;border-bottom:2px solid #22e5ff}
+#content .icon .three span{font-size:10px;color:#929ba0}
+#content .icon .four{width:175px;float:left;text-align:center;margin-left:30px}
+#content .icon .four .pic1{width:39px;margin-bottom:35px}
+#content .icon .four p{font-size:11px;width:96px;margin:0 auto;margin-bottom:5px;padding-bottom:13px;border-bottom:2px solid #22e5ff}
+#content .icon .four span{font-size:10px;color:#929ba0}
+#content .full{background-color:#f7f7f7;overflow:hidden;height:400px}
+#content .full .top{width:684px;margin:0 auto;margin-top:34px;overflow:hidden}
+#content .full .top p{width:50%;border:1px solid #000;text-align:center;float:left;font-size:11px;padding:8px}
+#content .full .top p:hover{border:1px solid #22e5ff}
+#content .full .bottom{width:794px;margin:0 auto;margin-top:50px}
+#content .full .bottom .pic5{width:262px;margin-left:88px}
+#content .full .bottom .right{width:390px;float:right;overflow:hidden}
+#content .full .bottom .right p{margin:0;font-size:28px;margin-top:17px;margin-bottom:14px}
+#content .full .bottom .right span{margin:0;font-size:10px}
+#content .full .bottom .right .but{margin:20px 0}
+#content .full .bottom .right .but a{text-decoration:none;padding:10px 20px;font-size:10px;color:#000;border:1px solid #000}
+#content .full .bottom .right .but a:hover{color:#22e5ff;border:1px solid #22e5ff}
+#content .moder{color:#fff;background-color:#252726;text-align:center;margin:0 auto;overflow:hidden;height:502px}
+#content .moder h3{width:341px;margin:0 auto;margin-bottom:14px;padding-top:70px;padding-bottom:20px;font-size:29px}
+#content .moder h3:hover{border-bottom:1px solid #22e5ff}
+#content .moder p{margin:0;margin-bottom:80px;font-size:9px}
+#content .moder img{width:666px}
+#content .new{width:530px;margin:0 auto;margin-top:84px;margin-bottom:42px;overflow:hidden}
+#content .new .left{width:153px;float:left}
+#content .new .left .one{float:right;margin-bottom:73px;margin-right:40px}
+#content .new .left .one h6{margin:3px 0 0 7px;color:#22e5ff}
+#content .new .left .one p{float:right;margin-top:5px;font-size:10px;color:#c8cdce}
+#content .new .pic6{width:9px;float:left;margin-top:5px}
+#content .new .right{float:left;margin-left:43px}
+#content .new .right .one{height:105px;margin-bottom:14px}
+#content .new .right .one h6{margin:1px 0 15px 2px}
+#content .new .right .one p{font-size:9px;color:#c8cdce}
+#content .new .right .one a{text-decoration:none;font-size:10px;color:#22e5ff}
+#content .our{background-color:#f7f7f7}
+#footer{width:5px}

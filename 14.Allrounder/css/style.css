@@ -1,0 +1,247 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	font-family: 'Georgia';
+}
+	#header{
+		margin: 20px 30px;
+		overflow: hidden;
+	}
+		#header p{
+			float: left;
+			padding-top: 9px;
+		}
+		#header a{
+			float: left;
+			padding-top: 9px;
+			padding-left: 150px;
+			text-decoration: none;
+			color: black;
+		}
+			#header a:hover{
+				color: red;
+				text-decoration: underline;
+			}
+		#header .search{
+			float: right;
+			background-color: #e1e1e1;
+	        -webkit-border-radius: 50px;
+	        height: 32px;
+		}
+			.search img{
+				padding-top: 3px;
+				padding-right: 6px;
+			}
+			.search .username{
+		        -webkit-border-radius: 50px;
+		        background-color: #e1e1e1;
+		        width: 242px;
+			}
+	#content{
+		overflow: hidden;
+	}
+		#content .fist{
+			padding: 50px 30px;
+			padding-bottom: 0px;
+			background-color: #222;
+			color: white;
+			overflow: hidden;
+			border-bottom: 5px solid #7c9c37;
+		}
+			.fist .logo{
+				float: left;
+			}
+				.fist p{
+					font-size: 17px;
+				}
+			.fist .menu{
+				width: 823px;
+				float: right;
+				margin-top: 40px;
+				margin-bottom: 15px;
+			}
+				.menu li{
+					padding: 0px 15px;
+					display: inline-block;
+					border-right: 1px solid white;
+				}
+					.menu li:hover{
+						border-right: 2px solid white;
+					}
+						.menu p:hover{
+							color: #7c9c37;
+						}
+		#content .second{
+			background-color: #333;
+			overflow: hidden;
+			padding: 200px 30px;
+		}
+			.second img{
+				float: left;
+				width: 60px;
+				transition: width 1s;
+			}
+				.second img:hover{
+					width: 90px;
+				}
+			.second p{
+				margin-left: 500px;
+				float: left;
+				font-size: 40px;
+				color: white;
+			}
+			.second a{
+				float: right;
+			}
+		#content .third{
+			overflow: hidden;
+		}
+			.third p{
+				text-align: center;
+				font-size: 39px;
+				margin: 88px auto;
+			}
+			.third img{
+				width: 1075px;
+				margin-left: 138px;
+			}
+		#content .four{
+			overflow: hidden;
+		}
+			.four .one{
+				overflow: hidden;
+				margin-top: 68px;
+			}
+				.one li{
+					width: 288px;
+					margin-left: 30px;
+					margin-bottom: 68px;
+					display: inline-block;
+					background-color: #f0f0f0;
+				}
+					.one img{
+						height: 179px;
+					}
+					.one h1{
+						font-size: 19px;
+						margin-top: 29px;
+						color: #7c9c37;
+						margin-bottom: 20px;
+						margin-left: 30px;
+					}
+					.one p{
+						font-size: 17px;
+						margin-left: 30px;
+						padding-bottom: 25px;
+					}
+			.image img{
+				width: 1075px;
+				margin-left: 138px;
+			}
+		#content .five{
+			width: 100%;
+			height: 700px;
+			margin-top: 70px;
+			overflow: hidden;
+		}
+			.five .dolor{
+				width: 45%;
+				margin-bottom: 20px;
+				margin-left: 30px;
+				float: left;
+				border-bottom: 1px solid #e2e2e2;
+			}
+				.dolor p{
+					float: left;
+					font-size: 22px;
+					margin-bottom: 20px;
+				}
+				.dolor span{
+					float: right;
+					color: #7c9c37;
+				}
+			.five .dolor2{
+				width: 49%;
+				margin-bottom: 20px;
+				margin-right: 30px;
+				float: right;
+				border-bottom: 1px solid #e2e2e2;
+			}
+				.dolor2 p{
+					float: left;
+					font-size: 22px;
+					margin-bottom: 20px;
+				}
+				.dolor2 span{
+					float: right;
+					color: #7c9c37;
+				}
+			.five .left{
+				width: 50%;
+				float: left;
+			}
+				.left .img2{
+					width: 246px;
+					margin: 30px;
+					float: left;
+				}
+					.img2 img{
+						float: left;
+					}
+					.img2 ul{
+						float: right;
+						list-style-type: none;
+					}
+						.img2 p{
+							color: #7c9c37;
+							font-size: 20px;
+							margin-bottom: 5px;
+						}
+			.five .right{
+				width: 50%;
+				float: right;
+			}
+				.one2{
+					float: left;
+					margin-left: 13px;
+				}
+					.one2 img{
+						width: 284px;
+					}
+					.one2 .left2 p{
+						padding-top: 10px;
+						padding-bottom: 10px;
+					}
+					.one2 .left2 span{
+						color: #7c9c37;
+					} 
+				.one3{
+					float: right;
+					margin-right: 30px;
+				}
+					.one3 img{
+						width: 284px;
+					}
+					.one3 .left3 p{
+						padding-top: 10px;
+						padding-bottom: 10px;
+					}
+					.one3 .left3 span{
+						color: #7c9c37;
+					} 
+	#footer{
+		overflow: hidden;
+		padding: 30px;
+		background-color: #222;
+		color: #666;
+	}
+		#footer p{
+			float: left;
+		}
+		#footer span{
+			float: right;
+		}

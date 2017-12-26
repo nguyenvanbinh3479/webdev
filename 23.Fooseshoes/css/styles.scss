@@ -1,0 +1,1584 @@
+@charset 'utf-8';
+
+body{
+	margin: 0;
+	padding: 0;
+}
+#envelop{
+	background-color: #242424;
+	overflow: hidden;
+}
+
+#header{
+	p{
+		font-family: "SimSun";
+    	color: #57c5a0;
+    	font-size: 24px;
+    	margin: 9px 617px 0px 220px;
+    	float: left;
+    	opacity: 1;
+		&:hover{
+			opacity: 0.5;
+		}
+	}
+	.heo{
+    	margin-right: 20px;
+   		padding: 14px 22px 11px 0px;
+    	border-right: 1px solid #383838;
+	}
+	span{
+		margin: 0px 220px 0px 0px;
+		padding: 16px 19px 16px 0px;
+   		font-size: 10px;
+		text-decoration: none;
+		color: #7e7e7e;
+		float: right;
+    	border-right: 1px solid #383838;
+    	&:hover{
+    		color: #fff;
+    	}
+	}
+	.hind{
+		display: none;
+	}
+}
+
+#banner{
+	background-color: white;
+	overflow: hidden;
+	ul{
+		float: left;
+		margin: 0px 0px 0px 221px;
+		padding: 0;
+		li{	
+			font-size: 18px;
+    		padding: 18px 19px;
+			display: inline-block;
+			border-left: 1px solid #eeeeee;
+			&:hover{
+				color: #57c5a0;
+			}
+		}
+		.oi{
+			border-right: 1px solid #eeeeee;
+		}
+	}
+	.shop{
+		float: right;
+		width: 70px;
+		margin-right: 220px;
+		padding: 15px 8px;
+		border-right: 1px solid #cccccc; 
+		img{
+			float: left;
+			margin-left: 12px;
+    		margin-top: 11px;
+		}
+		div{
+			margin-right: 15px;
+    		margin-top: 7px;
+   	 		padding: 1px 7px;
+    		-webkit-border-radius: 5px;
+    		float: right;
+    		background-color: #adadad;
+			&:hover{
+				background-color: #57c5a0;
+			}
+			span{
+				color: white;
+				font-size: 11px;
+			}
+		}
+	}
+	.shop2{
+		float: right;
+		width: 70px;
+		border-right: 1px solid #cccccc; 
+		border-left: 1px solid #cccccc;
+		padding: 16px 8px; 
+		img{
+			float: left;
+			margin-left: 12px;
+    		margin-top: 5px;
+		}
+		div{
+			margin-right: 11px;
+    		margin-top: 5px;
+   	 		padding: 1px 5px;
+ 			-webkit-border-radius: 5px;
+			float: right;
+			background-color: #adadad;
+			&:hover{
+				background-color: #57c5a0;
+			}
+			span{
+				color: white;
+				font-size: 11px;
+			}
+		}
+	}
+}
+
+#content{
+	overflow: hidden;
+	.pink{
+		background: url(../img/leg.png)no-repeat;
+		background-size: 100% 100%; 
+		overflow: hidden;
+		.left{
+			margin-bottom: 75px;
+			float: right;
+			.number{
+				margin: 69px 568px 10px 0px;
+    			padding: 23px 5px;
+				background-color: #57c5a0;
+				float: left;
+				span{
+					font-family: "Myriad Pro";
+					font-weight: bold;
+					color: white;
+				}
+			}
+			h1{
+				margin: 0;
+				font-size: 43px;
+				font-weight: normal;
+			}
+			p{
+				margin: 0px 0px 16px 0px;
+				font-size: 21px;
+			}
+		}
+		.eye{
+			margin-left: 2px;
+			padding: 10px 12px;
+			background-color: #fafaf9; 
+			float: left;
+		}
+		.eye1{
+			margin-left: 2px;
+			padding: 13px 12px 5px 12px;
+			background-color: #fafaf9; 
+			float: left;
+		}
+		.eye2{
+			margin-left: 2px;
+			padding: 13px 12px 6px 12px;
+			background-color: #fafaf9; 
+			float: left;
+		}
+	}
+	.troll{
+			background-color: #2e2e2e;
+			overflow: hidden;
+			.fin{
+				p{
+					display: none;
+				}
+			}
+		.sale{
+			text-align: center;
+			background: url(../img/troll.png)no-repeat;
+			background-size: 82% 12%;
+			margin: 5px 0px 0px 212px;
+			overflow: hidden;
+			.eno1{
+				float: left;
+	    		margin-top: 3px;
+	    		margin-left: 10px;
+	    		padding: 20px 45px 18px 45px;
+	    		&:hover{
+	    			border-top: 5px solid #57c5a0;
+	    		}
+				p{
+					color: #acacac;
+					margin: 0px;
+					font-size: 19px;
+					&:hover{
+						color: white;
+					}
+				}
+				span{
+					color: #686868;
+					font-size: 13px;			
+				}
+			}.eno2{
+				float: left;
+	    		margin-top: 3px;
+	    		padding: 20px 45px 18px 18px;
+	    		&:hover{
+	    			border-top: 5px solid #57c5a0;
+	    		}
+				p{
+					color: #acacac;
+					margin: 0px;
+					font-size: 19px;
+					&:hover{
+						color: white;
+					}
+				}
+				span{
+					color: #686868;
+					font-size: 13px;			
+				}
+			}
+			.eno{
+				float: left;
+	    		margin-top: 3px;
+	    		margin-left: 10px;
+	    		padding: 20px 45px 18px 35px;
+	    		&:hover{
+	    			border-top: 5px solid #57c5a0;
+	    		}
+				p{
+					color: #acacac;
+					margin: 0px;
+					font-size: 19px;
+					&:hover{
+						color: white;
+					}
+				}
+				span{
+					color: #686868;
+					font-size: 13px;
+				}
+			}
+			.eno3{
+				float: left;
+	    		margin-top: 3px;
+	    		margin-left: 10px;
+	    		padding: 20px 45px 18px 35px;
+	    		&:hover{
+	    			border-top: 5px solid #57c5a0;
+	    		}
+				p{
+					color: #acacac;
+					margin: 0px;
+					font-size: 19px;
+					&:hover{
+						color: white;
+					}
+				}
+				span{
+					color: #686868;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.shose{
+		margin: 25px 0px 15px 0px;
+		text-align: center;
+		overflow: hidden;
+		.black1{
+			background: url(../img/blue.png)no-repeat;
+			background-size: 97% 96%;
+			overflow: hidden;
+			float: left;
+			margin-left: 220px;
+			margin-right: 10px;
+			p{
+				padding: 17px 44px;
+    			color: white;
+    			float: left;
+    			margin: 61px 62px;
+    			font-size: 21px;
+    			background-color: rgba(0, 0, 0, 0.8);
+			}
+		}
+		.black2{
+			background: url(../img/gray.png)no-repeat;
+			background-size: 97% 96%;
+			overflow: hidden;
+			float: left;
+			margin-right: 10px;
+			p{
+				padding: 17px 44px;
+    			color: white;
+    			float: left;
+    			margin: 61px 22px;
+    			font-size: 21px;
+    			background-color: rgba(0, 0, 0, 0.8);
+			}
+		}
+		.black3{
+			background: url(../img/black.png)no-repeat;
+			background-size: 97% 96%;
+			overflow: hidden;
+			float: left;
+			margin-right: 10px;
+			p{
+				padding: 17px 44px;
+    			color: white;
+    			float: left;
+    			margin: 61px 47px;
+    			font-size: 21px;
+    			background-color: rgba(0, 0, 0, 0.8);
+			}
+		}
+	}
+	.new{
+		background-color: #ebe7df;
+		overflow: hidden;
+		.show{
+			overflow: hidden;
+			.sho{
+				overflow: hidden;
+				p{
+					margin-left: 217px;
+    				margin-top: 31px;
+    				font-size: 26px;
+					color: #242424;
+					float: left;
+				}
+				a{
+					margin: 29px 222px;
+					text-decoration: none;
+					color: #bcb5a7;
+					float: right;
+					padding: 4px 17px;
+					border: 1px solid #bcb5a7;
+				}
+			}
+			.even{
+				overflow: hidden;
+				.sh1{
+					float: left;
+					background: url(../img/sh1.png)no-repeat;
+					background-size: 100% 98%;
+					margin: 0px 21px 0px 220px;
+					.mm{
+						margin: 191px 118px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh2{
+					float: left;
+					background: url(../img/sh2.png)no-repeat;
+					background-size: 99% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 200px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 12px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh{
+					float: left;
+					background: url(../img/sh.png)no-repeat;
+					background-size: 85% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 250px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh3{
+					float: left;
+					background: url(../img/sh3.png)no-repeat;
+					background-size: 100% 101%;
+					margin: 0px 21px 0px 220px;
+					.mm{
+						margin: 191px 200px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh4{
+					float: left;
+					background: url(../img/sh4.png)no-repeat;
+					background-size: 99% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 200px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 12px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh6{
+					float: left;
+					background: url(../img/sh6.png)no-repeat;
+					background-size: 85% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 250px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+			}
+			.even1{
+				overflow: hidden;
+				.sh1{
+					float: left;
+					background: url(../img/sh1.png)no-repeat;
+					background-size: 100% 98%;
+					margin: 0px 21px 0px 220px;
+					.mm{
+						margin: 191px 118px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh2{
+					float: left;
+					background: url(../img/sh2.png)no-repeat;
+					background-size: 99% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 200px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 12px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh{
+					float: left;
+					background: url(../img/sh.png)no-repeat;
+					background-size: 85% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 250px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh3{
+					float: left;
+					background: url(../img/sh3.png)no-repeat;
+					background-size: 100% 101%;
+					margin: 0px 21px 0px 220px;
+					.mm{
+						margin: 191px 200px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh4{
+					float: left;
+					background: url(../img/sh4.png)no-repeat;
+					background-size: 99% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 200px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 12px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+				.sh6{
+					float: left;
+					background: url(../img/sh6.png)no-repeat;
+					background-size: 85% 101%;
+					margin: 0px 13px 0px 0px;
+					.mm{
+						margin: 191px 250px 0px 0px;
+						p{
+							font-size: 18px; 
+							padding-top: 15px;
+							float: left;
+						}
+						a{
+							float: left;
+							padding: 24px 7px;
+    						margin: 0px 13px;
+							background-color: #57c5a0;
+							color: white;
+						}
+						img{
+							float: left;
+							margin:0 auto;
+						}
+						.ey{
+							margin: 35px 0px 0px 15px;
+						}
+						.sta{
+							margin: 30px 0px 0px 15px;
+						}
+						.ou{
+							margin: 33px 0px 0px 15px;
+						}
+						.bu{
+							margin: 32px 0px 0px 15px;
+						}
+					}
+				}
+			}
+		}
+		.free{
+			width: 905px;
+			float: left;
+			margin: 50px 0px 25px 223px;
+    		padding-top: 24px;
+			border-top: 1px solid #bcb5a7;
+			.tes{
+				background-color: #dfdbd4;
+				float: left;
+				width: 211px;
+			    height: 180px;
+			    margin-right: 21px;
+				p{
+					margin: 30px 0px 9px 11px;
+					font-weight: bold;
+					font-size: 12px
+				}
+				span{
+					margin-left: 12px; 
+					font-size: 13px;
+				}
+			} 
+			.blog2{
+				background-color: #dfdbd4;
+				float: left;
+				width: 441px;
+    			height: 180px;
+				p{
+					margin: 30px 0px 0px 13px;
+					font-weight: bold;
+					font-size: 12px
+				}
+				.zero{
+					overflow: hidden;
+					margin-left: 14px;
+					margin-top: 17px;
+					img{
+						float: left;
+					}
+					p{
+						margin: 3px 0px 0px 45px;
+						font-weight: bold;
+						font-size: 14px
+					}
+					span{
+						float: left;
+						margin-left: 10px; 
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+	.text{
+		background-color: #242424;
+		overflow: hidden;
+		border-bottom: 1px solid #1c1c1c;
+		.tex{
+			float: left;
+			margin: 40px 0px 0px 262px;
+			p{
+				color: #7d7d7d;
+    			font-size: 12px;
+    			margin: 12px 0px 15px 0px;
+			}
+			span{
+				color: #a4a4a4;
+				font-size: 13px;
+			}
+		}
+		.twi{
+			float: left;
+			margin: 38px 0px 20px 45px;
+			p{
+				color: #7d7d7d;
+				font-size: 13px;
+			}
+			span{
+				color: #a4a4a4;
+				font-size: 13px;
+				a{
+					color: #57c5a0;	
+				}
+				h6{
+					color: #c4c5bf;
+					font-size: 12px;
+					margin: 10px 0px;
+				}
+			}
+		}
+		.twi2{
+			float: left;
+			margin: 38px 0px 20px 45px;
+			p{
+				color: #7d7d7d;
+				font-size: 13px;
+			}
+			.pict{
+				width: 300px;
+			}
+		}
+	}
+	.enter{
+		overflow: hidden;
+		.email{
+			width: 860px;
+			margin: 24px 0px 28px 260px;
+			overflow: hidden;
+			p{
+				background-color: #2e2e2e;
+				padding: 10px 52px 10px 15px;
+				float: left;
+				color: #7d7d7d;
+				font-size: 13px;
+			}
+			.qq{
+				margin-top: 14px;
+    			width: 35px;
+			}
+		}
+		.aa{
+			float: right;
+    		margin-top: 12px;	
+    		margin-right: 36px;
+    		width: 200px;
+		}
+	}
+}
+#footer{
+	background-color: #2e2e2e;
+	padding-top: 8px;
+	.copy{
+		width: 940px;
+		margin: 0 auto;
+		overflow: hidden;
+		p{
+			float: left;
+			color: #acacac;
+			margin: 18px 14px;
+    		font-size: 13px;
+		}
+		ul{
+			float: right;
+			margin: 23px 21px 37px 0px;
+			li{
+				color: #acacac;
+				display: inline-block;
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+///////////////////////////////////////////iphone 6 dọc
+// @media screen and (max-width: 768px){
+// 	#envelop{
+// 		width: 100%;
+// 		#header{
+// 			p{
+// 				margin: 3px 90px 0px 13px;
+// 			}
+// 			img{
+// 				margin: 0px 0px 0px 95px;
+//     			padding-right: 77px;
+// 			}
+// 			span{
+// 				margin: 0px;
+// 				padding-right: 45px;
+// 			}
+// 			.hind{
+// 				float: right;
+// 				margin-right: 17px;
+// 				width: 30%;
+// 				display: block;
+// 				margin: 0px;
+// 				.hii{
+// 					width: 50px;
+// 					margin: 3px 0px 0px 50px;
+// 					padding: 0px;
+// 				}
+// 			}
+// 		}
+// 		#banner{
+// 			ul{
+// 				width: 100%;
+// 				margin: 0px;
+// 				float: right;
+// 				display: none;
+// 				li{
+// 					width: 38%;
+// 					text-align: center;
+// 				}
+// 			}
+// 			.shop{
+// 				margin: 0px;	
+// 				padding: 15px 52px 15px 51px;
+// 			}
+// 			.shop2{
+// 				margin: 0px 14px 0px 0px;
+// 				padding: 16px 57px 16px 58px;
+// 			}
+// 		}
+// 		#content{
+// 			.pink{
+// 				width: 100%;
+// 				.left{
+// 					width: 50%;
+// 					float: right;
+// 					margin-bottom: 30px;
+// 					.number{
+// 						margin: 20px 115px 10px 0px;
+// 					}
+// 					h1{
+// 						font-size: 20px;
+// 					}
+// 					p{
+// 						margin-bottom: 25px;
+// 						font-size: 10px;
+// 						margin-top: 7px; 
+// 					}
+// 				}
+// 			}
+// 			.troll{
+// 				margin: 0px;
+// 				padding: 0px;
+// 				.sale{
+// 					margin: 0px;
+// 					padding: 0px;
+// 					width: 100%;
+// 					background-size: 100% 100%;
+// 					.fin{
+// 						width: 100%;
+// 						p{
+// 							font-size: 20px;
+// 							display: block;
+// 							color: white;
+// 							margin: 0px;
+// 							padding: 0px;
+// 						}
+// 		   			}
+// 					.eno1{
+// 						margin: 0px 0px 0px 20px;
+// 						padding: 0px;
+// 						display: none;
+// 						p{
+// 							font-size: 10px;
+// 						}
+// 						span{
+// 							font-size: 7px;
+// 						}
+// 					}
+// 					.eno{
+// 						margin: 0px 0px 0px 20px;
+// 						padding: 0px;
+// 						display: none;
+// 						p{
+// 							font-size: 10px;
+// 						}
+// 						span{
+// 							font-size: 7px;
+// 						}
+// 					}
+// 					.eno2{
+// 						margin: 0px 0px 0px 20px;
+// 						padding: 0px;
+// 						display: none;
+// 						p{
+// 							font-size: 10px;
+// 						}
+// 						span{
+// 							font-size: 7px;
+// 						}
+// 					}
+// 					.eno3{
+// 						margin: 0px 0px 0px 20px;
+// 						padding: 0px;
+// 						display: none;
+// 						p{
+// 							font-size: 10px;
+// 						}
+// 						span{
+// 							font-size: 7px;
+// 						}
+// 					}
+// 				}
+// 			}
+// 			.shose{
+// 				display: none;
+// 				.black1{
+// 					margin: 0px 37px;
+// 					padding: 0px;
+// 				}
+// 				.black2{
+// 					margin: 0px 37px;
+// 					padding: 0px;
+// 				}
+// 				.black3{
+// 					margin: 0px 37px;
+// 					padding: 0px;
+// 				}
+// 			}
+// 			.new{
+// 				.show{
+// 					.sho{
+// 						p{
+// 							margin: 20px 39px;
+// 							padding: 0px;
+// 						}
+// 						a{
+// 							margin: 20px 139px;
+// 						}
+// 					}
+// 					.even{
+// 						display: none;
+// 						.sh1{
+// 							margin: 0px 41px;
+// 						}
+// 						.sh2{
+// 							margin: 0px 41px;
+// 							width: 294px;
+// 						}
+// 						.sh{
+// 							margin: 6px 41px;
+// 						}
+// 					}
+// 					.even1{
+// 						display: none;
+// 						.sh3{
+// 							margin: 6px 41px;
+// 						}
+// 						.sh4{
+// 							margin: 0px 41px;
+// 							width: 294px;
+// 						}
+// 						.sh6{
+// 							margin: 6px 41px;
+// 						}
+// 					}
+// 				}
+// 				.free{
+// 					width: 100%;
+// 					margin: 0px;
+// 					padding: 10px 0px;
+// 					.tes{
+// 						width: 49%;
+// 						margin: 0px 0px 2px 2px;
+// 						span{
+// 							font-size: 12px;
+// 						}
+// 					}
+// 					.blog2{
+// 						margin-top: 10px;
+// 						width: 100%;
+// 						span{
+// 							font-size: 12px;
+// 						}
+// 					}
+// 				}
+// 			}
+// 			.text{
+// 				width: 100%;
+// 				.tex{
+// 					margin: 20px 0px 0px 60px;
+// 				}
+// 				.twi{
+// 					margin: 20px 0px 0px 60px;
+// 				}
+// 				.twi2{
+// 					margin: 20px 0px 0px 65px;
+// 				}
+// 			}
+// 			.enter{
+// 				width: 100%;
+// 				.email{
+// 					width: 100%;
+// 					margin: 0px;
+// 					p{
+// 						margin: 12px 0px 5px 62px;
+// 					}
+// 					.qq{
+// 						margin-top: 13px;
+// 					}
+// 					.aa{
+// 						margin: 10px 92px 15px 0px;
+
+// 					}
+// 				}
+// 			}
+// 		}
+// 		#footer{
+// 			width: 100%;
+// 			.copy{
+// 				width: 100%;
+// 				p{
+// 					margin: 0px 0px 10px 10px;
+// 					width: 35%;
+// 				}
+// 				ul{
+// 					margin: 0px;
+// 					padding: 0px;
+// 					width: 35%;
+// 					float: right;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+/////////////////////////////////////iphone 6 ngang
+// @media screen and (max-width: 1024px){
+// 	#envelop{
+// 		width: 100%;
+// 		#header{
+// 			width: 100%;
+// 			p{
+// 				margin: 3px 13px 0px 13px;
+// 			}
+// 			.hind{
+// 				width: 70%;
+// 				height: 30px;
+// 			}
+// 			.hii{
+// 				float: right;
+// 			}
+// 			.unknow{
+// 				overflow: hidden;
+// 				width: 50%;
+// 				float: left;
+// 				.heo{
+// 					margin: 0px;
+// 					padding: 14px 50px 14px 50px;
+// 					float: left;
+// 				}
+// 				span{
+// 					float:left;
+// 					padding: 14px 70px 14px 50px;
+// 					border-right: none;
+// 				}
+// 			}
+// 		}
+// 		#banner{
+// 			width: 50%;
+// 			background-color: #242424;
+// 			ul{
+// 				li{
+// 					width: 20.5%;
+// 					color: #7e7e7e;
+// 					border-color: #7e7e7e;
+// 				}
+// 				.oi{
+// 					width: 20.5%;
+// 					border-right: none;
+// 				}
+// 			}
+// 			.shop{
+// 				padding: 7px 40px 8px 57px;
+// 				border-right: none;
+// 				span{
+// 					color: #7e7e7e;
+// 				}
+// 			}
+// 			.shop2{
+// 				padding: 7px 40px 8px 40px;
+// 				border-color: #7e7e7e;
+// 				span{
+// 					color: #7e7e7e;
+// 				}
+// 			}
+// 		}
+// 		#content{
+// 			width: 100%;
+// 			.pink{
+// 				.left{
+// 					.number{
+// 						margin: 20px 70px 12px 0px;
+// 					}
+// 					h1{
+// 						margin-right: 50px;
+// 						margin-top: 100px;
+// 					}
+// 				}
+// 			}
+// 			.troll{
+// 				.sale{
+// 					.eno{
+// 						margin-left: 30px;
+// 						p{
+// 							font-size: 17px;
+// 						}
+// 						span{
+// 							font-size: 14px;
+// 						}
+// 					}
+// 					.eno1{
+// 						margin-left: 30px;
+// 						p{
+// 							font-size: 17px;
+// 						}
+// 						span{
+// 							font-size: 14px;
+// 						}
+// 					}
+// 					.eno2{
+// 						margin-left: 30px;
+// 						p{
+// 							font-size: 17px;
+// 						}
+// 						span{
+// 							font-size: 14px;
+// 						}
+// 					}
+// 					.eno3{
+// 						margin: 3px 0px 0px 35px;
+// 						p{
+// 							font-size: 17px;
+// 						}
+// 						span{
+// 							font-size: 14px;
+// 						}
+// 					}
+// 				}
+// 			}
+// 			.shose{
+// 				width: 100%;
+// 				.black1{
+// 					float: left;
+// 					margin: 0px 0px 0px 40px;
+// 				}
+// 				.black2{
+// 					float: left;
+// 					margin: 0px;
+// 				}
+// 				.black3{
+// 					float: left;
+// 					margin: 0px 0px 0px 40px;
+// 				}
+// 			}
+// 			.new{
+// 				width: 100%;
+// 				.show{
+// 					.sho{
+// 						.mop{
+// 							margin: 25px 40px 0px 0px;
+// 						}
+// 						.mol{
+// 							margin: 25px 40px 0px 0px;
+// 						}
+// 					}
+// 					.even{
+// 						.sh1{
+// 							margin: 0px 10px 0px 35px;
+// 							float: left;
+// 						}
+// 						.sh2{
+// 							margin: 0px;
+// 							float: left;
+// 						}
+// 						.sh{
+// 							margin: 0px 0px 0px 35px;
+// 							float: left;
+// 							background-size: 85.5% 100%;
+// 						}
+// 					}
+// 					.even1{
+// 						.sh3{
+// 							margin: 0px 10px 0px 35px;
+// 							float: left;
+// 						}
+// 						.sh4{
+// 							margin: 0px;
+// 							float: left;
+// 						}
+// 						.sh6{
+// 							margin: 10px 0px 10px 35px;
+// 							float: left;
+// 							background-size: 85.5% 100%;
+// 						}
+// 					}
+// 				}
+// 				.free{
+// 					padding: 0px;
+// 					padding-top: 10px;
+// 					.tes{
+// 						margin: 0px 0px 2px 4px;
+// 					}
+// 					.blog2{
+// 						padding-bottom: 20px;
+// 						p{
+// 							margin: 30px 0px 0px 90px;
+// 						}
+// 						.zero{
+// 							margin: 30px 0px 0px 90px;
+// 							p{
+// 								margin: 0px 0px 0px 46px;
+// 							}
+// 						}
+// 					}
+// 				}
+// 			}
+// 			.text{
+// 				.twi2{
+// 					width: 100%;
+// 					margin: 20px 0px 0px 70px;
+// 					.pict{
+// 						width: 100%;
+// 						img{
+// 							margin-right: 10px;
+// 						}
+// 					}
+// 				}
+// 			}
+// 			.enter{
+// 				.email{
+// 					.aa{
+// 						margin: 14px 92px 11px 0px;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		#footer{
+// 			width: 100%;
+// 		}
+// 	}
+// }
+///////////////////////////////////////////iphone 5 dọc
+@media screen and (max-width: 320px) {
+	#envelop{
+		width: 100%;
+		#header{
+			width: 100%;
+			.unknow{
+				width: 100%;
+				img{
+					margin-left: 64px;
+				}
+			}
+		}
+		#banner{	
+			width: 100%;
+			ul{	
+				width: 30%;
+				float: right;
+				margin-left: 223px;
+				.oi{
+					border-right: none;
+				}
+			}
+			.shop{
+				padding: 15px 42px 15px 51px;
+			}
+			.shop2{
+				margin: 0px;
+				padding: 16px 42px 16px 42px;
+			}
+		}
+		#content{
+			width: 100%;
+			.pink{
+				.left{
+					p{
+						font-size: 8px;
+					}
+					.eye{
+						margin: 5px 9px;
+					}
+					.eye2{
+						margin: 5px 9px;
+					}
+					.eye1{
+						margin: 5px 9px;
+					}
+				}
+			}
+			.troll{
+				width: 100%;
+				.sale{
+					width: 100%;
+					background-size: 100%  100%;
+					.eno{
+						margin-left: 12px; 
+					}
+					.eno1{
+						margin-left: 8px; 
+					}
+					.eno2{
+						margin-left: 9px; 
+					}
+					.eno3{
+						margin-left: 9px; 
+					}
+				}
+			}
+			.shose{
+				.black2{
+					background-size: 100% 100%;
+					margin-right: 26px;
+				}
+				.black3{
+					background-size: 100% 100%;
+					margin-right: 26px;
+					margin-top: 10px;
+				}
+			}
+			.new{
+				.show{
+					.sho{
+						p{
+							font-size: 20px;
+						}
+						a{
+							width: 65px;
+							margin: 20px 110px;
+						}
+					}
+					.even{
+						.sh1{
+							width: 94%;
+							margin: 10px;
+						}
+						.sh2{
+							width: 95%;
+							margin: 10px;
+						}
+						.sh{
+							width: 110%;
+							margin: 10px;
+						}
+					}
+					.even1{
+						.sh3{
+							width: 94%;
+							margin: 10px;
+						}
+						.sh4{
+							width: 95%;
+							margin: 10px;
+						}
+						.sh6{
+							width: 110%;
+							margin: 10px;
+						}
+					}
+				}
+				.free{
+					.tes{
+						span{
+							font-size: 10px;
+						}
+					}
+					.blog2{
+						width: 100%;
+						overflow: hidden;
+						.zero{
+							span{
+								font-size: 9px;
+							}
+						}
+					}
+				}
+			}
+			.text{
+				.tex{
+					margin: 20px 0px 0px 40px;
+				}
+				.twi{
+       				margin: 20px 0px 0px 40px;
+				}
+				.twi2{
+					margin: 20px 0px 0px 40px;
+				}
+			}
+			.enter{
+				.email{
+					p{
+						margin: 12px 0px 5px 38px;
+					}
+					.aa{
+						margin: 10px 60px 15px 0px;
+					}
+				}
+			}
+		}
+		#footer{	
+			width: 100%;
+			.copy{
+				ul{
+					width: 97px;
+				}
+			}
+		}
+	}
+}
