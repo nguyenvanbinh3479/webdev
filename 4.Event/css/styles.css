@@ -105,4 +105,66 @@ body header {
             .nav .border .menu ul li a:link strong, .nav .border .menu ul li a:visited strong {
               font-size: 20px; }
 
+.home {
+  border: 1px dashed #efefef;
+  border-left: none;
+  border-right: none;
+  border-top: none; }
+  .home h2 {
+    width: 979px;
+    border-left: 1px dashed #efefef;
+    border-right: 1px dashed #efefef;
+    margin: 0 auto;
+    font-size: 10px;
+    padding: 17px 19px;
+    font-size: 13px;
+    color: #878787; }
+
+.content {
+  width: 979px;
+  margin: 0 auto;
+  border-left: 1px dashed #efefef;
+  border-right: 1px dashed #efefef;
+  overflow: hidden; }
+  .content .event {
+    width: 163px;
+    margin: 13px 16px 111px; }
+  .content .calenda {
+    float: right;
+    width: 258px;
+    margin: 10px 10px 0px; }
+
+.firste {
+  border-top: 1px dashed #efefef;
+  overflow: hidden;
+  padding: 15px 20px; }
+  .firste:hover {
+    background: #efefef; }
+  .firste .one {
+    float: left; }
+    .firste .one img {
+      width: 66px; }
+  .firste .two {
+    float: left; }
+    .firste .two h3 {
+      margin: 0;
+      padding-left: 13px;
+      font-size: 20px;
+      padding-bottom: 15px; }
+    .firste .two p {
+      margin-left: 19px;
+      font-size: 13px; }
+  .firste .three {
+    float: right; }
+    .firste .three img {
+      width: 255px; }
+
+.more {
+  border-top: 1px solid #8ec31b;
+  float: left;
+  width: 190px;
+  margin-top: 22px; }
+  .more a {
+    color: #8ec31b; }
+
 /*# sourceMappingURL=styles.css.map */
