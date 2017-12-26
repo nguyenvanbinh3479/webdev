@@ -16,10 +16,10 @@ body header {
 
 .nav-top {
   overflow: hidden;
-  width: 998px;
+  width: 1051px;
   margin: 0 auto; }
   .nav-top .menu {
-    padding: 0; }
+    padding-left: 37px; }
     .nav-top .menu ul {
       margin: 13px 0px 7px;
       padding: 0; }
@@ -67,12 +67,42 @@ body header {
         border: none; }
 
 .logo {
-  width: 960px;
+  width: 979px;
   border: 1px dashed #efefef;
   border-top: none;
   border-bottom: none;
   margin: 0 auto; }
   .logo a img {
-    width: 100px; }
+    width: 221px;
+    margin: 65px 21px 55px; }
+
+.nav {
+  background: #37bfef; }
+  .nav .border {
+    margin: 7px 0;
+    border: 1px dashed #efefef;
+    border-left: none;
+    border-right: none;
+    position: relative; }
+    .nav .border .menu {
+      width: 979px;
+      border: 1px dashed #efefef;
+      border-top: none;
+      border-bottom: none;
+      margin: 0 auto; }
+      .nav .border .menu ul {
+        margin: 0;
+        padding: 0; }
+        .nav .border .menu ul li {
+          display: inline-block;
+          text-align: center;
+          padding: 7px 21px 7px 66px; }
+          .nav .border .menu ul li a:link, .nav .border .menu ul li a:visited {
+            text-decoration: none;
+            color: #fff; }
+            .nav .border .menu ul li a:link:hover, .nav .border .menu ul li a:visited:hover {
+              color: #8ec31b; }
+            .nav .border .menu ul li a:link strong, .nav .border .menu ul li a:visited strong {
+              font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

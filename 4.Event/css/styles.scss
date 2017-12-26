@@ -54,10 +54,10 @@ body{
 
 .nav-top{
     overflow: hidden;
-    width: 998px;
+    width: 1051px;
     margin: 0 auto;
     .menu{
-        padding: 0;
+        padding-left: 37px;
         ul{
             margin: 13px 0px 7px;
             padding: 0;
@@ -122,14 +122,52 @@ body{
 }
 
 .logo{
-    width: 960px;
+    width: 979px;
     border: 1px dashed #efefef;
     border-top: none;
     border-bottom: none;
     margin: 0 auto;
     a{
         img{
-            width: 100px;
+            width: 221px;
+            margin: 65px 21px 55px;
+        }
+    }
+}
+
+.nav{
+    background: #37bfef;
+    .border{
+        margin: 7px 0;
+        border: 1px dashed #efefef; 
+        border-left: none;
+        border-right: none;
+        position: relative;
+        .menu{
+            width: 979px;
+            border: 1px dashed #efefef;
+            border-top: none;
+            border-bottom: none;
+            margin: 0 auto;
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    display: inline-block;
+                    text-align: center;
+                    padding: 7px 21px 7px 66px;
+                    a:link, a:visited{
+                        text-decoration: none;
+                        color: #fff;
+                        &:hover{
+                            color: #8ec31b;
+                        }
+                        strong{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
