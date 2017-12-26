@@ -82,7 +82,6 @@ body{
     }
     .contact{  
         overflow: hidden;
-        padding-right: none;
         form{
             float: left;
             width: 206px;
@@ -123,6 +122,11 @@ body{
 }
 
 .logo{
+    width: 960px;
+    border: 1px dashed #efefef;
+    border-top: none;
+    border-bottom: none;
+    margin: 0 auto;
     a{
         img{
             width: 100px;
