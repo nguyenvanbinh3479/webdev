@@ -82,6 +82,7 @@ body{
     }
     .contact{  
         overflow: hidden;
+        padding-right: none;
         form{
             float: left;
             width: 206px;
@@ -117,6 +118,14 @@ body{
             .last{
                 border: none;
             }
+        }
+    }
+}
+
+.logo{
+    a{
+        img{
+            width: 100px;
         }
     }
 }

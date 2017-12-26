@@ -37,7 +37,8 @@ body header {
         .nav-top .menu ul li .last {
           border: none; }
   .nav-top .contact {
-    overflow: hidden; }
+    overflow: hidden;
+    padding-right: none; }
     .nav-top .contact form {
       float: left;
       width: 206px; }
@@ -65,5 +66,8 @@ body header {
           padding: 13px 0 9px; }
       .nav-top .contact .social .last {
         border: none; }
+
+.logo a img {
+  width: 100px; }
 
 /*# sourceMappingURL=styles.css.map */
