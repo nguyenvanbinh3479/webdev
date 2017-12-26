@@ -1,6 +1,9 @@
 body header {
   background: #27a3dc;
   overflow: hidden; }
+body footer {
+  background: #37bfef;
+  overflow: hidden; }
 
 .row {
   margin: 0; }
@@ -163,8 +166,51 @@ body header {
   border-top: 1px solid #8ec31b;
   float: left;
   width: 190px;
-  margin-top: 22px; }
+  margin-top: 22px;
+  padding-top: 8px; }
   .more a {
-    color: #8ec31b; }
+    color: #8ec31b;
+    margin-left: 24px; }
+
+.up img {
+  width: 100px;
+  margin-left: 248px;
+  margin-top: 47px;
+  margin-bottom: 5px; }
+
+.footer {
+  overflow: hidden;
+  border-top: 1px dashed #efefef;
+  border-bottom: 1px dashed #efefef;
+  margin: 5px 0;
+  position: relative; }
+  .footer::before {
+    content: '';
+    border-left: 1px dashed #efefef;
+    height: 143px;
+    position: absolute;
+    left: 184px; }
+  .footer::after {
+    content: '';
+    border-left: 1px dashed #efefef;
+    height: 143px;
+    position: absolute;
+    right: 184px; }
+
+.logo1 {
+  float: left; }
+  .logo1 img {
+    margin-left: 205px;
+    width: 169px;
+    margin-top: 48px;
+    margin-bottom: 40px; }
+
+.text1 {
+  float: left;
+  color: white;
+  margin-left: 20px;
+  margin-top: 49px; }
+  .text1 p {
+    font-size: 17px; }
 
 /*# sourceMappingURL=styles.css.map */

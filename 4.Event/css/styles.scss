@@ -30,9 +30,11 @@ body{
         overflow: hidden;    
     }
     section{
-
+        
     }
     footer{
+        background: #37bfef;
+        overflow: hidden;
     }
 }
 
@@ -244,7 +246,60 @@ body{
     float: left;
     width: 190px;
     margin-top: 22px;
+    padding-top: 8px;
     a{
         color: #8ec31b;
+        margin-left: 24px;
+    }
+}
+
+.up{
+    img{
+        width: 100px;
+        margin-left: 248px;
+        margin-top: 47px;
+        margin-bottom: 5px;
+    }
+}
+
+.footer{
+    overflow: hidden;
+    border-top: 1px dashed #efefef;
+    border-bottom: 1px dashed #efefef;
+    margin: 5px 0;
+    position: relative;
+    &::before{
+        content: '';
+        border-left: 1px dashed #efefef;
+        height: 143px;
+        position: absolute;
+        left: 184px;
+    }
+    &::after{
+        content: '';
+        border-left: 1px dashed #efefef;
+        height: 143px;
+        position: absolute;
+        right: 184px;
+    }
+}
+
+.logo1{
+    float: left;
+    img{
+        margin-left: 205px;
+        width: 169px;
+        margin-top: 48px;
+        margin-bottom: 40px;
+    }
+}
+
+.text1{
+    float: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 49px;
+    p{
+        font-size: 17px;
     }
 }
