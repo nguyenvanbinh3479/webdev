@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+body{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	img{
+		width: 50px;
+	}
+	.mn{
+		ul{
+			display: none;
+			li{
+				display: inline-block;
+			}
+		}
+	}
+}

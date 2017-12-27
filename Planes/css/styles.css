@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+#header img {
+  width: 50px; }
+#header .mn ul {
+  display: none; }
+  #header .mn ul li {
+    display: inline-block; }
+
+/*# sourceMappingURL=styles.css.map */
