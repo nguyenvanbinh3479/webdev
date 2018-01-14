@@ -1,32 +1,8 @@
-/* vietnamese */
-@font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(../fonts/DK0eTGXiZjN6yA8zAEyM2fRMc6C39aem-aUPzsV2c2w.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(../fonts/DK0eTGXiZjN6yA8zAEyM2e87R-l0-Xx_7cYc0ZX1ifE.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: 'Dancing Script';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(../fonts/DK0eTGXiZjN6yA8zAEyM2Ud0sm1ffa_JvZxsF_BEwQk.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
 
 body{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     header{
-        
     }
     section{
     }
@@ -34,3 +10,78 @@ body{
     }
 }
 
+.header-top{
+    background: rgba(207, 208, 215, 0.104);
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    z-index: 999;
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Pacifico', cursive;
+        color: #fff;
+        font-size: 20px;
+        margin: 0;
+        margin: 15px 0 15px;
+    }
+    p{
+        margin-top: 15px;
+        color: #cfd0d7;
+    }
+    .nav{
+        float: right;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 11px;
+                padding: 18px 20px;
+                &:hover{
+                    background: none;
+                    border-top: 2px solid #32b0ee;
+                    padding: 16px 20px 19px;
+                }
+            }
+        }  
+    }
+}
+.slider{
+    overflow: hidden;
+    .bg{
+        width: 100%;
+        position: absolute;
+        z-index: -99999;
+    }
+}
+.text{
+    text-align: center;
+    margin-top: 350px;
+    color: #fff;
+    h2{
+        font-size: 50px;
+    }
+    h6{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        color: #0fde96;
+    }
+}
+.contact{
+    margin: 100px auto 64px;
+    text-align: center;
+    overflow: hidden;
+    width: 171px;
+    img{
+        float: left;
+        margin-right: 20px;
+    }
+    .last{
+        margin: 0;
+    }
+}
