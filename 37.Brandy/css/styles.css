@@ -80,4 +80,59 @@ body {
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
   background: #fff !important; }
 
+.bx-wrapper {
+  margin-bottom: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.features {
+  background: #f4f7f9; }
+  .features h2 {
+    color: #0eb493;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px 0; }
+  .features p {
+    text-align: center;
+    position: relative; }
+    .features p::before {
+      content: "";
+      position: absolute;
+      background: #dce1e5;
+      width: 90px;
+      height: 1px;
+      left: 566px;
+      top: 13px; }
+    .features p::after {
+      content: '';
+      position: absolute;
+      background: #dce1e5;
+      width: 90px;
+      height: 1px;
+      right: 566px;
+      top: 13px; }
+
+.text1 {
+  overflow: hidden;
+  max-width: 905px;
+  margin: 50px auto 100px; }
+  .text1 .one {
+    float: left;
+    overflow: hidden;
+    max-width: 325px; }
+    .text1 .one .left {
+      float: left; }
+      .text1 .one .left img {
+        margin: 20px;
+        max-width: 30px; }
+    .text1 .one .right {
+      float: left; }
+      .text1 .one .right h3 {
+        font-size: 15px; }
+      .text1 .one .right p {
+        text-align: start;
+        font-size: 10px; }
+
 /*# sourceMappingURL=styles.css.map */

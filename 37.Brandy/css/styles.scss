@@ -101,3 +101,74 @@ body{
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
     background: #fff !important;
 }
+.bx-wrapper{
+    margin-bottom: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.features{
+    background: #f4f7f9;
+    
+    h2{
+        color: #0eb493;
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 30px 0;
+    }
+   
+    p{
+        text-align: center;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            background: #dce1e5;
+            width: 90px;
+            height: 1px;
+            left: 566px;
+            top: 13px;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            background: #dce1e5;
+            width: 90px;
+            height: 1px;
+            right: 566px;
+            top: 13px;
+        }
+    }
+    
+}
+
+.text1{
+    overflow: hidden;
+    max-width: 905px;
+    margin: 50px auto 100px;
+    .one{
+        float: left;
+        overflow: hidden;
+        max-width: 325px;
+        .left{
+            float: left;
+            img{
+                margin: 20px;
+                max-width: 30px;
+            }
+        }
+        .right{
+            float: left;
+            h3{
+                font-size: 15px;
+            }
+            p{
+                text-align: start;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
