@@ -224,24 +224,29 @@ body{
     color: #000;
     font-weight: bold;
 }
-.tab-content>.active{
-    position: relative;
-}
 .pict{
-    position: absolute;
-    &:hover.hind{
-        display: block;
+    position: relative;
+    float: left;
+    &:hover .hind{
+        height: 253px;
+    }
+    .vv{
+        width: 336.7px;
     }
 }
 .hind{
     background: hsla(168, 69%, 42%, 0.919);
     text-align: center;
     position: absolute;
-    padding: 101px 77px;
-    display: none;
+    bottom: 0;
+    transition: .5s ease;
+    height: 0;
+    img{
+        margin-top: 78px;
+    }
     p{
         color: #fff;
-        margin-top: 20px;
+        margin: 20px 46px 67px;
         strong{
             font-weight: bold;
             font-size: 20px;
