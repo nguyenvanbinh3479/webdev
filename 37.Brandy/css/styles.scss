@@ -319,6 +319,9 @@ body{
             margin-left: 10px;
             position: relative;
             float: left;
+            a{
+                text-decoration: none;
+            }
             &:hover .hind1{
                 height: 280px;
             }

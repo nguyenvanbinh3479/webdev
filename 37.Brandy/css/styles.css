@@ -256,6 +256,8 @@ body {
       margin-left: 10px;
       position: relative;
       float: left; }
+      .pi .tw .pict1 a {
+        text-decoration: none; }
       .pi .tw .pict1:hover .hind1 {
         height: 280px; }
       .pi .tw .pict1:hover h4 {
