@@ -175,6 +175,9 @@ body {
   .works ul {
     max-width: 480px;
     margin: 50px auto; }
+  .works .tab-content {
+    width: 1347px;
+    margin: 0 auto; }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #0eb493 !important;
@@ -243,5 +246,9 @@ body {
       font-weight: bold;
       font-size: 15px;
       margin: 20px auto; }
+
+.pi {
+  max-width: 1000px;
+  margin: 100px auto 0px; }
 
 /*# sourceMappingURL=styles.css.map */
