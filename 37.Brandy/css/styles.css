@@ -394,14 +394,33 @@ body {
     .discuss .ddsc .center h3 {
       margin: 0px 0px 30px;
       font-weight: bold; }
-    .discuss .ddsc .center form input {
-      width: 334px;
-      margin-right: 20px;
-      border-top: none !important;
-      border-left: none !important;
-      border-bottom: 2px solid #707070 !important;
-      border-right: none !important; }
+    .discuss .ddsc .center form {
+      overflow: hidden; }
+      .discuss .ddsc .center form input {
+        width: 334px;
+        margin-right: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        border-top: none !important;
+        border-left: none !important;
+        border-bottom: 1px solid #707070 !important;
+        border-right: none !important; }
+      .discuss .ddsc .center form .ms {
+        width: 691px;
+        padding-bottom: 15px;
+        margin-bottom: 30px; }
+      .discuss .ddsc .center form .bt {
+        float: right;
+        margin-right: 0;
+        padding: 0;
+        font-weight: bold;
+        width: 159px;
+        border-bottom: none !important;
+        background: url(../images/ms.png) no-repeat; }
   .discuss .ddsc .right {
-    float: right; }
+    float: right;
+    width: 48px; }
+    .discuss .ddsc .right img {
+      margin: 8px 0; }
 
 /*# sourceMappingURL=styles.css.map */
