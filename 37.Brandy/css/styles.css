@@ -1,6 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Open Sans', sans-serif; }
+  body footer {
+    background: #1ea78d;
+    color: #fff;
+    overflow: hidden; }
 
 .header-top {
   background: rgba(207, 208, 215, 0.104);
@@ -292,6 +296,7 @@ body {
 .facts {
   margin-top: 100px;
   background: url(../images/bg3.png) no-repeat;
+  background-size: 100% 100%;
   overflow: hidden; }
   .facts .text2 {
     text-align: center; }
@@ -426,9 +431,84 @@ body {
 .location {
   margin-top: 50px;
   position: relative; }
+  .location img {
+    width: 100%; }
+  .location .here {
+    border-bottom: 5px solid #000;
+    max-width: 100%; }
   .location .pin {
     position: absolute;
     top: 100px;
     left: 400px; }
+
+.ftcenter {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .ftcenter .one {
+    float: left;
+    margin: 100px 50px 100px 0; }
+    .ftcenter .one h4 {
+      font-size: 25px;
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Pacifico', cursive; }
+    .ftcenter .one p {
+      font-size: 12px; }
+  .ftcenter .two {
+    float: left;
+    margin: 100px 50px 100px 0; }
+    .ftcenter .two h6 {
+      margin-bottom: 20px;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 15px; }
+    .ftcenter .two form {
+      margin-bottom: 10px; }
+      .ftcenter .two form input {
+        background: none;
+        border: 1px solid;
+        padding: 10px 0;
+        width: 245px;
+        border-radius: 5px;
+        background: url(../images/arr.png) no-repeat;
+        background-position-x: 210px;
+        background-position-y: 15px; }
+    .ftcenter .two p {
+      font-size: 12px; }
+  .ftcenter .three {
+    float: left;
+    margin: 100px 50px 100px 0; }
+    .ftcenter .three h6 {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 15px; }
+    .ftcenter .three .ho {
+      overflow: hidden;
+      font-size: 12px; }
+      .ftcenter .three .ho a {
+        color: #fff; }
+      .ftcenter .three .ho .le {
+        float: left;
+        width: 100px;
+        margin-right: 50px; }
+      .ftcenter .three .ho .ri {
+        float: left;
+        max-width: 100px; }
+  .ftcenter .four {
+    float: left;
+    margin: 180px 0 0;
+    font-size: 12px; }
+    .ftcenter .four p {
+      color: #fff;
+      border-left: 1px solid #000;
+      padding-left: 20px;
+      margin-bottom: 16px; }
+      .ftcenter .four p strong {
+        color: #000; }
+    .ftcenter .four h6 {
+      color: #000;
+      font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

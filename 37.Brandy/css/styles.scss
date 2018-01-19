@@ -7,6 +7,9 @@ body{
     section{
     }
     footer{
+        background: #1ea78d;
+        color: #fff;
+        overflow: hidden;
     }
 }
 
@@ -367,6 +370,7 @@ body{
 .facts{
     margin-top: 100px;
     background: url(../images/bg3.png) no-repeat;
+    background-size: 100% 100%;
     overflow: hidden;
     .text2{
         text-align: center;
@@ -534,9 +538,104 @@ body{
 .location{
     margin-top: 50px;
     position: relative;
+    img{
+        width: 100%; 
+    }
+    .here{
+        border-bottom: 5px solid #000;
+        max-width: 100%;
+    }
     .pin{
         position: absolute;
         top: 100px;
         left: 400px;
+    }
+}
+.ftcenter{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    .one{
+        float: left;
+        margin: 100px 50px 100px 0;
+        h4{
+            font-size: 25px;
+            margin-bottom: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Pacifico', cursive;
+        }
+        p{
+            font-size: 12px;
+        }
+    }   
+    .two{
+        float: left;
+        margin: 100px 50px 100px 0;
+        h6{
+            margin-bottom: 20px;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        form{
+            margin-bottom: 10px;
+            input{
+                background: none;
+                border: 1px solid;
+                padding: 10px 0;
+                width: 245px;
+                border-radius: 5px;
+                background: url(../images/arr.png)no-repeat;
+                background-position-x: 210px;
+                background-position-y: 15px;
+            }
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .three{
+        float: left;
+        margin: 100px 50px 100px 0;
+        h6{
+            margin-bottom: 30px;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .ho{
+            overflow: hidden;
+            font-size: 12px;
+            a{
+                color: #fff; 
+            }
+            .le{
+                float: left;
+                width: 100px;
+                margin-right: 50px;
+            }
+            .ri{
+                float: left;
+                max-width: 100px;
+            }
+        }
+    }
+    .four{
+        float: left;
+        margin: 180px 0 0;
+        font-size: 12px;
+        p{
+            color: #fff;
+            border-left: 1px solid #000;
+            padding-left: 20px;
+            margin-bottom: 16px;
+            strong{
+                color: #000;
+            }
+        }
+        h6{
+            color: #000;
+            font-weight: bold;
+        }
     }
 }
