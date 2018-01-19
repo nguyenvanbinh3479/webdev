@@ -289,4 +289,36 @@ body {
           margin: 0 10px  !important;
           float: left; }
 
+.facts {
+  margin-top: 100px;
+  background: url(../images/bg3.png) no-repeat; }
+  .facts .text2 {
+    text-align: center; }
+    .facts .text2 h2 {
+      color: #0eb493;
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 30px 0; }
+    .facts .text2 p {
+      text-align: center;
+      position: relative; }
+      .facts .text2 p::before {
+        content: "";
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        left: 566px;
+        top: 13px; }
+      .facts .text2 p::after {
+        content: '';
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        right: 566px;
+        top: 13px; }
+
 /*# sourceMappingURL=styles.css.map */
