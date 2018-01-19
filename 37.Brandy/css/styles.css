@@ -320,5 +320,14 @@ body {
         height: 1px;
         right: 566px;
         top: 13px; }
+  .facts .ffact {
+    width: 1300px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .facts .ffact .one1 {
+      float: left; }
+      .facts .ffact .one1 .bdi {
+        border-radius: 20px;
+        border: 1px solid #fff; }
 
 /*# sourceMappingURL=styles.css.map */

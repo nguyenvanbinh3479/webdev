@@ -401,4 +401,16 @@ body{
             }
         }
     }
+    .ffact{
+        width: 1300px;
+        margin: 0 auto;
+        overflow: hidden;
+        .one1{
+            float: left;
+            .bdi{
+                border-radius: 20px;
+                border: 1px solid #fff;
+            }
+        }
+    }
 }
