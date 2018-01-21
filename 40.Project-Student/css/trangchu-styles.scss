@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    #container{
+        background: #00ccff;
+        overflow: hidden;
+    }
+    #header{
+        width: 1300px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #wrapper{
+        background: #fff;
+        overflow: hidden;
+        width: 100%;
+    }
+    #footer{
+
+    }
+}
+.logo{
+    float: left;
+    margin: 5px 30px;
+    h1{
+        margin: 0;
+        a{
+            img{
+                width: 40px;
+            }
+        }
+    }
+}
+.text{
+    float: left;
+    margin: 10px 25px;
+   h2{
+       color: #fff;
+       margin: 0;
+   }
+}
+.menu2.btn11{
+    width: 30px;
+    height: 53px;
+    margin: 0px 30px;
+}
+.menu{
+    display: none;
+    width: 200px;
+    position: absolute;
+    background: #00ccff;
+    right: -23px;
+    top: 55px;
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+        li{
+            display: inline-block;
+            width: 100%;
+            padding: 10px 0px;
+            border-bottom: 2px solid #00b7ff;
+            &:hover{
+                background: #007fae; 
+            }
+            a:link, a:visited {
+                text-decoration: none;
+                color: #fff;
+                font-size: 15px;
+                padding: 12px 54px;
+            }
+        }
+        .last{
+            border-bottom: none;
+        }
+    }
+}
+.menu.show{
+    display: block;
+}
+.content{
+    
+}
+
+
+
+
+
+$dark: #ffffff;
+$light: #efefef;
+$color: #b3e5fc;
+
+@mixin btn($left, $top) {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  transition-duration: 0.5s;
+}
+
+@mixin icon($height, $width) {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: $height;
+  width: $width;
+  top: 30px;
+  background-color: $dark;
+}
+
+@mixin icon-before($height, $width, $top) {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: $width;
+  height: $height;
+  background-color: $dark;
+  content: "";
+  top: $top;
+}
+
+@mixin icon-after($height, $width, $top) {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: $width;
+  height: $height;
+  background-color: $dark;
+  content: "";
+  top: $top;
+}
+
+@mixin icon-circle($height, $width) {
+  transition-duration: 0.5s;
+  position: absolute;
+  height: $height;
+  width: $width;
+  top: 2px;
+  border-radius: 100%;
+  background: transparent;
+  border: 4px solid black;
+  left: -15px;
+}
+
+.btn11{
+  @include btn(240px, 300px);
+  
+  .icon-left {
+    @include icon(4px, 15px);
+    
+    &:before{
+      @include icon-before(4px, 15px, -10px);
+    }
+    
+    &:after{
+      @include icon-after(4px, 15px, 10px);
+    }
+    
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  
+  .icon-right {
+    @include icon(4px, 15px);
+    left: 15px;
+    
+    &:before{
+      @include icon-before(4px, 15px, -10px);
+    }
+    
+    &:after{
+      @include icon-after(4px, 15px, 10px);
+    }
+  }
+  
+  &.open {
+    .icon-left {
+      transition-duration: 0.5s;
+      background: transparent;
+      
+      &:before{
+        transform: rotateZ(45deg) scaleX(1.4) translate(2px, 2px);
+      }
+
+      &:after{
+        transform: rotateZ(-45deg) scaleX(1.4) translate(2px, -2px);
+      }
+    }
+    
+    .icon-right {
+      transition-duration: 0.5s;
+      background: transparent;  
+      
+      &:before{
+        transform: rotateZ(-45deg) scaleX(1.4) translate(-2px, 2px);
+      }
+
+      &:after{
+        transform: rotateZ(45deg) scaleX(1.4) translate(-2px, -2px);
+      }
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+

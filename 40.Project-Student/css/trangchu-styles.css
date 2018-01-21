@@ -1,0 +1,139 @@
+body {
+  margin: 0; }
+  body #container {
+    background: #00ccff;
+    overflow: hidden; }
+  body #header {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative; }
+  body #wrapper {
+    background: #fff;
+    overflow: hidden;
+    width: 100%; }
+
+.logo {
+  float: left;
+  margin: 5px 30px; }
+  .logo h1 {
+    margin: 0; }
+    .logo h1 a img {
+      width: 40px; }
+
+.text {
+  float: left;
+  margin: 10px 25px; }
+  .text h2 {
+    color: #fff;
+    margin: 0; }
+
+.menu2.btn11 {
+  width: 30px;
+  height: 53px;
+  margin: 0px 30px; }
+
+.menu {
+  display: none;
+  width: 200px;
+  position: absolute;
+  background: #00ccff;
+  right: -23px;
+  top: 55px; }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bold; }
+    .menu ul li {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0px;
+      border-bottom: 2px solid #00b7ff; }
+      .menu ul li:hover {
+        background: #007fae; }
+      .menu ul li a:link, .menu ul li a:visited {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        padding: 12px 54px; }
+    .menu ul .last {
+      border-bottom: none; }
+
+.menu.show {
+  display: block; }
+
+.btn11 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  transition-duration: 0.5s; }
+  .btn11 .icon-left {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    width: 15px;
+    top: 30px;
+    background-color: #ffffff; }
+    .btn11 .icon-left:before {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 15px;
+      height: 4px;
+      background-color: #ffffff;
+      content: "";
+      top: -10px; }
+    .btn11 .icon-left:after {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 15px;
+      height: 4px;
+      background-color: #ffffff;
+      content: "";
+      top: 10px; }
+    .btn11 .icon-left:hover {
+      cursor: pointer; }
+  .btn11 .icon-right {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 4px;
+    width: 15px;
+    top: 30px;
+    background-color: #ffffff;
+    left: 15px; }
+    .btn11 .icon-right:before {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 15px;
+      height: 4px;
+      background-color: #ffffff;
+      content: "";
+      top: -10px; }
+    .btn11 .icon-right:after {
+      transition-duration: 0.5s;
+      position: absolute;
+      width: 15px;
+      height: 4px;
+      background-color: #ffffff;
+      content: "";
+      top: 10px; }
+  .btn11.open .icon-left {
+    transition-duration: 0.5s;
+    background: transparent; }
+    .btn11.open .icon-left:before {
+      transform: rotateZ(45deg) scaleX(1.4) translate(2px, 2px); }
+    .btn11.open .icon-left:after {
+      transform: rotateZ(-45deg) scaleX(1.4) translate(2px, -2px); }
+  .btn11.open .icon-right {
+    transition-duration: 0.5s;
+    background: transparent; }
+    .btn11.open .icon-right:before {
+      transform: rotateZ(-45deg) scaleX(1.4) translate(-2px, 2px); }
+    .btn11.open .icon-right:after {
+      transform: rotateZ(45deg) scaleX(1.4) translate(-2px, -2px); }
+  .btn11:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=trangchu-styles.css.map */

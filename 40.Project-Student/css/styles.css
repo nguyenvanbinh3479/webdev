@@ -1,0 +1,72 @@
+body {
+  margin: 0; }
+  body #container {
+    background: #00ccff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; }
+  body #header {
+    overflow: hidden;
+    width: 1300px;
+    margin: 5px auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1e90ff; }
+  body #wrapper {
+    width: 1300px;
+    margin: 90px auto 0px;
+    overflow: hidden; }
+
+.logo {
+  float: left;
+  margin: 0px 50px; }
+  .logo h1 {
+    margin: 0; }
+    .logo h1 a img {
+      width: 39px;
+      opacity: 1; }
+      .logo h1 a img:hover {
+        opacity: 0.7; }
+
+.text {
+  float: left;
+  margin: 15px 30px 0px; }
+  .text h2 {
+    color: #fff;
+    margin: 0; }
+
+.content {
+  width: 290px;
+  margin: 0px auto; }
+  .content form {
+    font-weight: bold;
+    overflow: hidden; }
+    .content form .img {
+      text-align: center; }
+    .content form .top h2 {
+      margin: 20px 0px;
+      font-size: 30px;
+      text-align: center; }
+    .content form .top input {
+      border: none;
+      margin-bottom: 20px;
+      padding: 5px 91px 5px 10px;
+      border-radius: 5px; }
+    .content form .top button {
+      border: none;
+      border-radius: 5px;
+      background: #1e90ff;
+      padding: 10px 80px;
+      font-size: 25px;
+      color: #fff;
+      margin: 10px 0px 25px; }
+    .content form .bottom {
+      float: right; }
+      .content form .bottom span {
+        font-weight: bold; }
+        .content form .bottom span a {
+          color: #131313; }
+          .content form .bottom span a:hover {
+            text-decoration: none;
+            color: #1e90ff; }
+
+/*# sourceMappingURL=styles.css.map */
